@@ -205,9 +205,8 @@ services:
     user: "0:0"
     volumes:
       - ${AIRFLOW_PROJ_DIR:-.}:/sources
-      - /workspaces/Strava-Data:/workspaces/Strava-Data
-      - /Users/jackie/Desktop/Strava/strava_activities.csv 
-
+      - /workspaces/Strava-Data:/opt/airflow/dags:rw
+      - /Users/jackie/Desktop/Strava:/my_home
   airflow-cli:
     <<: *airflow-common
     profiles:

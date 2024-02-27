@@ -1,0 +1,13 @@
+[2024-02-15T18:17:25.350+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_strava_data.clean_new_data manual__2024-02-15T18:17:21.108082+00:00 [queued]>
+[2024-02-15T18:17:25.359+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_strava_data.clean_new_data manual__2024-02-15T18:17:21.108082+00:00 [queued]>
+[2024-02-15T18:17:25.360+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-15T18:17:25.379+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): clean_new_data> on 2024-02-15 18:17:21.108082+00:00
+[2024-02-15T18:17:25.389+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_strava_data', 'clean_new_data', 'manual__2024-02-15T18:17:21.108082+00:00', '--job-id', '1420', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmp6zq728tm']
+[2024-02-15T18:17:25.392+0000] {standard_task_runner.py:88} INFO - Job 1420: Subtask clean_new_data
+[2024-02-15T18:17:25.386+0000] {standard_task_runner.py:60} INFO - Started process 341 to run task
+[2024-02-15T18:17:25.450+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_strava_data.clean_new_data manual__2024-02-15T18:17:21.108082+00:00 [running]> on host eb5a2c8761d9
+[2024-02-15T18:17:25.537+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_strava_data' AIRFLOW_CTX_TASK_ID='clean_new_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-15T18:17:21.108082+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-15T18:17:21.108082+00:00'
+[2024-02-15T18:17:25.966+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-02-15T18:17:25.974+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Get_strava_data, task_id=clean_new_data, execution_date=20240215T181721, start_date=20240215T181725, end_date=20240215T181725
+[2024-02-15T18:17:26.019+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-15T18:17:26.047+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

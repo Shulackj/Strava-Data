@@ -1,0 +1,29 @@
+[2024-02-15T15:34:17.571+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_strava_data.upload_file manual__2024-02-15T15:34:12.275353+00:00 [queued]>
+[2024-02-15T15:34:17.578+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_strava_data.upload_file manual__2024-02-15T15:34:12.275353+00:00 [queued]>
+[2024-02-15T15:34:17.578+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-15T15:34:17.594+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): upload_file> on 2024-02-15 15:34:12.275353+00:00
+[2024-02-15T15:34:17.601+0000] {standard_task_runner.py:60} INFO - Started process 4790 to run task
+[2024-02-15T15:34:17.603+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_strava_data', 'upload_file', 'manual__2024-02-15T15:34:12.275353+00:00', '--job-id', '1370', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmpr1cb46lz']
+[2024-02-15T15:34:17.605+0000] {standard_task_runner.py:88} INFO - Job 1370: Subtask upload_file
+[2024-02-15T15:34:17.654+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_strava_data.upload_file manual__2024-02-15T15:34:12.275353+00:00 [running]> on host 179d8ea51567
+[2024-02-15T15:34:17.765+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_strava_data' AIRFLOW_CTX_TASK_ID='upload_file' AIRFLOW_CTX_EXECUTION_DATE='2024-02-15T15:34:12.275353+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-15T15:34:12.275353+00:00'
+[2024-02-15T15:34:17.767+0000] {logging_mixin.py:188} INFO - Source Path: /opt/***/strava_activities.csv
+[2024-02-15T15:34:17.767+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/get_strava_data.py", line 140, in upload_existing_data
+    shutil.copy(source_path, destination_path)
+  File "/usr/local/lib/python3.8/shutil.py", line 418, in copy
+    copyfile(src, dst, follow_symlinks=follow_symlinks)
+  File "/usr/local/lib/python3.8/shutil.py", line 264, in copyfile
+    with open(src, 'rb') as fsrc, open(dst, 'wb') as fdst:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/strava_activities.csv'
+[2024-02-15T15:34:17.774+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=Get_strava_data, task_id=upload_file, execution_date=20240215T153412, start_date=20240215T153417, end_date=20240215T153417
+[2024-02-15T15:34:17.942+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1370 for task upload_file ([Errno 2] No such file or directory: '/opt/airflow/strava_activities.csv'; 4790)
+[2024-02-15T15:34:17.990+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-15T15:34:18.004+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,24 @@
+[2024-02-27T19:02:24.551+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_strava_data.clean_new_data manual__2024-02-27T19:02:20.396266+00:00 [queued]>
+[2024-02-27T19:02:24.562+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_strava_data.clean_new_data manual__2024-02-27T19:02:20.396266+00:00 [queued]>
+[2024-02-27T19:02:24.562+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-27T19:02:24.590+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): clean_new_data> on 2024-02-27 19:02:20.396266+00:00
+[2024-02-27T19:02:24.598+0000] {standard_task_runner.py:60} INFO - Started process 207 to run task
+[2024-02-27T19:02:24.605+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_strava_data', 'clean_new_data', 'manual__2024-02-27T19:02:20.396266+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmphx0bbfbx']
+[2024-02-27T19:02:24.607+0000] {standard_task_runner.py:88} INFO - Job 22: Subtask clean_new_data
+[2024-02-27T19:02:24.669+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_strava_data.clean_new_data manual__2024-02-27T19:02:20.396266+00:00 [running]> on host 6745e0920403
+[2024-02-27T19:02:24.764+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_strava_data' AIRFLOW_CTX_TASK_ID='clean_new_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-27T19:02:20.396266+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-27T19:02:20.396266+00:00'
+[2024-02-27T19:02:24.773+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/get_strava_data.py", line 100, in clean_data
+    df['start_date'] = pd.to_datetime(df['start_date'])
+TypeError: 'NoneType' object is not subscriptable
+[2024-02-27T19:02:24.910+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=Get_strava_data, task_id=clean_new_data, execution_date=20240227T190220, start_date=20240227T190224, end_date=20240227T190224
+[2024-02-27T19:02:24.937+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 22 for task clean_new_data ('NoneType' object is not subscriptable; 207)
+[2024-02-27T19:02:24.974+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-27T19:02:25.005+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

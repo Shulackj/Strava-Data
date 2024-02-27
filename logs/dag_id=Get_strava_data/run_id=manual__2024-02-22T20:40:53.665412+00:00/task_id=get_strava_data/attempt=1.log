@@ -1,0 +1,30 @@
+[2024-02-22T20:40:54.848+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_strava_data.get_strava_data manual__2024-02-22T20:40:53.665412+00:00 [queued]>
+[2024-02-22T20:40:54.855+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_strava_data.get_strava_data manual__2024-02-22T20:40:53.665412+00:00 [queued]>
+[2024-02-22T20:40:54.855+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-22T20:40:54.878+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): get_strava_data> on 2024-02-22 20:40:53.665412+00:00
+[2024-02-22T20:40:54.886+0000] {standard_task_runner.py:60} INFO - Started process 217 to run task
+[2024-02-22T20:40:54.890+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_strava_data', 'get_strava_data', 'manual__2024-02-22T20:40:53.665412+00:00', '--job-id', '1548', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmpgt0ci1lj']
+[2024-02-22T20:40:54.891+0000] {standard_task_runner.py:88} INFO - Job 1548: Subtask get_strava_data
+[2024-02-22T20:40:54.933+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_strava_data.get_strava_data manual__2024-02-22T20:40:53.665412+00:00 [running]> on host 7463ff621566
+[2024-02-22T20:40:55.238+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_strava_data' AIRFLOW_CTX_TASK_ID='get_strava_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-22T20:40:53.665412+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-22T20:40:53.665412+00:00'
+[2024-02-22T20:40:55.239+0000] {logging_mixin.py:188} INFO - Requesting Token..
+[2024-02-22T20:40:55.448+0000] {logging_mixin.py:188} INFO - Request successful
+[2024-02-22T20:40:55.601+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/get_strava_data.py", line 91, in get_new_strava_data
+    df['gear_id'] = df['gear_id'].astype(str)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/range.py", line 349, in get_loc
+    raise KeyError(key)
+KeyError: 'gear_id'
+[2024-02-22T20:40:55.610+0000] {taskinstance.py:1138} INFO - Marking task as UP_FOR_RETRY. dag_id=Get_strava_data, task_id=get_strava_data, execution_date=20240222T204053, start_date=20240222T204054, end_date=20240222T204055
+[2024-02-22T20:40:55.660+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1548 for task get_strava_data ('gear_id'; 217)
+[2024-02-22T20:40:55.705+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-22T20:40:55.726+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

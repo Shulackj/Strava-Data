@@ -1,0 +1,35 @@
+[2024-02-27T17:05:48.629+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_strava_data.get_strava_data manual__2024-02-27T17:05:47.250235+00:00 [queued]>
+[2024-02-27T17:05:48.639+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_strava_data.get_strava_data manual__2024-02-27T17:05:47.250235+00:00 [queued]>
+[2024-02-27T17:05:48.640+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-27T17:05:48.655+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): get_strava_data> on 2024-02-27 17:05:47.250235+00:00
+[2024-02-27T17:05:48.662+0000] {standard_task_runner.py:60} INFO - Started process 1443 to run task
+[2024-02-27T17:05:48.665+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_strava_data', 'get_strava_data', 'manual__2024-02-27T17:05:47.250235+00:00', '--job-id', '14', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmp2omzdggd']
+[2024-02-27T17:05:48.666+0000] {standard_task_runner.py:88} INFO - Job 14: Subtask get_strava_data
+[2024-02-27T17:05:48.709+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_strava_data.get_strava_data manual__2024-02-27T17:05:47.250235+00:00 [running]> on host 6745e0920403
+[2024-02-27T17:05:48.788+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_strava_data' AIRFLOW_CTX_TASK_ID='get_strava_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-27T17:05:47.250235+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-27T17:05:47.250235+00:00'
+[2024-02-27T17:05:48.789+0000] {logging_mixin.py:188} INFO - Requesting Token..
+[2024-02-27T17:05:49.075+0000] {logging_mixin.py:188} INFO - Request successful
+[2024-02-27T17:05:49.769+0000] {logging_mixin.py:188} INFO -                          name  distance  ...  max_heartrate  average_cadence
+0                 Morning Run    9660.5  ...          179.0             85.6
+1                        Hike    1448.4  ...            NaN              NaN
+2   Afternoon Weight Training       0.0  ...          147.0              NaN
+3                Morning Ride   21854.9  ...            NaN              NaN
+4                 Morning Run    6451.1  ...          176.0             85.1
+5                 Morning Run   12968.2  ...          177.0             86.1
+6              Afternoon Ride   22852.7  ...            NaN              NaN
+7   Afternoon Weight Training       0.0  ...          157.0              NaN
+8                 Morning Run    6447.0  ...          177.0             85.1
+9                 Morning Run    9662.6  ...          179.0             85.4
+10    Morning Weight Training       0.0  ...          154.0              NaN
+11               Morning Ride   21549.1  ...            NaN              NaN
+12                Morning Run    6450.5  ...          170.0             84.0
+13          Morning Trail Run   14878.0  ...          173.0             82.9
+14               Morning Ride   33152.6  ...            NaN              NaN
+15      Lunch Weight Training       0.0  ...          145.0              NaN
+16                Morning Run    6539.0  ...          171.0             84.1
+
+[17 rows x 18 columns]
+[2024-02-27T17:05:49.804+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-02-27T17:05:49.812+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Get_strava_data, task_id=get_strava_data, execution_date=20240227T170547, start_date=20240227T170548, end_date=20240227T170549
+[2024-02-27T17:05:49.849+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-27T17:05:49.884+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

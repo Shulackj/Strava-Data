@@ -32,7 +32,7 @@ if res.status_code == 200:
     #startdate = (datetime(2023,8,12)).timestamp()
 
     
-    end_date = datetime(2024,2,5).timestamp()
+    end_date = datetime(2024,2,4).timestamp()
 
     while True:
         parm = {'per_page': 200,'page':request_page_num,'before':end_date}
@@ -55,9 +55,6 @@ else:
 
 #Preview the response
 print(all_activities[0])
-
-#Current Columns
-print(df.columns)
 
 #Columns of interest
 selected_fields = ['name', 'distance','moving_time', 'elapsed_time','gear_id', 'total_elevation_gain', 'type', 'sport_type', 'average_speed','max_speed', 'summary_polyline','start_date','timezone','elev_high','elev_low','average_heartrate', 'max_heartrate','average_cadence','notes']

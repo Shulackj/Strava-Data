@@ -1,0 +1,15 @@
+[2024-02-13T22:50:26.773+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_API_data.get_strava_data manual__2024-02-13T22:50:25.713178+00:00 [queued]>
+[2024-02-13T22:50:26.801+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_API_data.get_strava_data manual__2024-02-13T22:50:25.713178+00:00 [queued]>
+[2024-02-13T22:50:26.807+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 2
+[2024-02-13T22:50:26.881+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): get_strava_data> on 2024-02-13 22:50:25.713178+00:00
+[2024-02-13T22:50:26.891+0000] {standard_task_runner.py:60} INFO - Started process 2180 to run task
+[2024-02-13T22:50:26.898+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_API_data', 'get_strava_data', 'manual__2024-02-13T22:50:25.713178+00:00', '--job-id', '1289', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmptitkyp3j']
+[2024-02-13T22:50:26.900+0000] {standard_task_runner.py:88} INFO - Job 1289: Subtask get_strava_data
+[2024-02-13T22:50:27.032+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_API_data.get_strava_data manual__2024-02-13T22:50:25.713178+00:00 [running]> on host 179d8ea51567
+[2024-02-13T22:50:27.322+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_API_data' AIRFLOW_CTX_TASK_ID='get_strava_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-13T22:50:25.713178+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-13T22:50:25.713178+00:00'
+[2024-02-13T22:50:27.324+0000] {logging_mixin.py:188} INFO - Requesting Token..
+[2024-02-13T22:50:27.705+0000] {logging_mixin.py:188} INFO - Request successful
+[2024-02-13T22:50:28.229+0000] {python.py:201} INFO - Done. Returned value was: None
+[2024-02-13T22:50:28.240+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Get_API_data, task_id=get_strava_data, execution_date=20240213T225025, start_date=20240213T225026, end_date=20240213T225028
+[2024-02-13T22:50:28.329+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-02-13T22:50:28.368+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check

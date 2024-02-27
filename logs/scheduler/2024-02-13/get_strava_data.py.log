@@ -1,0 +1,1321 @@
+[2024-02-13T22:34:38.680+0000] {processor.py:161} INFO - Started process (PID=788) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:38.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:34:38.691+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:38.691+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:38.702+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:38.693+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 28
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:34:38.702+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:38.773+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.095 seconds
+[2024-02-13T22:34:40.691+0000] {processor.py:161} INFO - Started process (PID=793) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:40.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:34:40.693+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:40.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:40.695+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:40.694+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 28
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:34:40.695+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:40.716+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.028 seconds
+[2024-02-13T22:34:42.724+0000] {processor.py:161} INFO - Started process (PID=798) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:42.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:34:42.725+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:42.725+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:42.728+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:42.727+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 28
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:34:42.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:42.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.056 seconds
+[2024-02-13T22:34:43.753+0000] {processor.py:161} INFO - Started process (PID=803) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:43.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:34:43.755+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:43.754+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:43.757+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:43.757+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 28
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:34:43.758+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:43.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.028 seconds
+[2024-02-13T22:34:49.782+0000] {processor.py:161} INFO - Started process (PID=808) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:49.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:34:49.785+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:49.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:49.787+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:34:49.786+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:34:49.788+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:34:49.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.036 seconds
+[2024-02-13T22:35:16.218+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:16.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:35:16.219+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:16.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:16.221+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:16.221+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:35:16.222+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:16.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.026 seconds
+[2024-02-13T22:35:35.645+0000] {processor.py:161} INFO - Started process (PID=881) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:35.646+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:35:35.647+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:35.647+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:35.649+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:35.648+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:35:35.649+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:35.671+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.028 seconds
+[2024-02-13T22:35:56.082+0000] {processor.py:161} INFO - Started process (PID=917) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:56.082+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:35:56.083+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:56.083+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:56.085+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:56.085+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:35:56.086+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:56.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.028 seconds
+[2024-02-13T22:35:59.119+0000] {processor.py:161} INFO - Started process (PID=922) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:59.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:35:59.121+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:59.121+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:59.128+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:35:59.128+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:35:59.129+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:35:59.151+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.035 seconds
+[2024-02-13T22:36:01.144+0000] {processor.py:161} INFO - Started process (PID=927) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:01.145+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:36:01.146+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:01.146+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:01.148+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:01.147+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:36:01.148+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:01.171+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.029 seconds
+[2024-02-13T22:36:08.208+0000] {processor.py:161} INFO - Started process (PID=932) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:08.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:36:08.210+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:08.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:08.213+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:08.212+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:36:08.213+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:08.236+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.033 seconds
+[2024-02-13T22:36:12.259+0000] {processor.py:161} INFO - Started process (PID=937) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:12.260+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:36:12.261+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:12.260+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:12.264+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:12.263+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:36:12.264+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:12.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.042 seconds
+[2024-02-13T22:36:29.771+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:29.771+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:36:29.772+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:29.772+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:29.774+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:29.774+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 29
+    def get_new_strava_data():
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:36:29.774+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:29.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.026 seconds
+[2024-02-13T22:36:33.791+0000] {processor.py:161} INFO - Started process (PID=978) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:33.791+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:36:33.792+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:33.792+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:35.581+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:36:36.003+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:36.002+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:Get_API_data
+[2024-02-13T22:36:36.019+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:36.018+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:Get_API_data
+[2024-02-13T22:36:36.029+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:36.029+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:Get_API_data
+[2024-02-13T22:36:36.030+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:36.030+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:36:36.044+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:36.044+0000] {dag.py:3058} INFO - Creating ORM DAG for Get_API_data
+[2024-02-13T22:36:36.045+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:36:36.045+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:36:36.087+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 2.299 seconds
+[2024-02-13T22:37:06.280+0000] {processor.py:161} INFO - Started process (PID=1016) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:37:06.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:37:06.282+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:37:06.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:37:06.576+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:37:06.596+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:37:06.595+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:37:06.605+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:37:06.605+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:37:06.623+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.346 seconds
+[2024-02-13T22:37:36.985+0000] {processor.py:161} INFO - Started process (PID=1056) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:37:36.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:37:36.988+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:37:36.988+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:37:37.272+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:37:37.291+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:37:37.291+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:37:37.300+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:37:37.300+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:37:37.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.337 seconds
+[2024-02-13T22:38:07.564+0000] {processor.py:161} INFO - Started process (PID=1093) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:38:07.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:38:07.565+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:38:07.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:38:07.832+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:38:07.852+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:38:07.852+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:38:07.874+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:38:07.874+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:38:07.895+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.334 seconds
+[2024-02-13T22:38:38.202+0000] {processor.py:161} INFO - Started process (PID=1130) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:38:38.203+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:38:38.203+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:38:38.203+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:38:38.464+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:38:38.494+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:38:38.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:38:38.509+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:38:38.509+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:38:38.559+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.359 seconds
+[2024-02-13T22:39:08.808+0000] {processor.py:161} INFO - Started process (PID=1167) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:39:08.808+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:39:08.809+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:39:08.809+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:39:09.046+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:39:09.066+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:39:09.066+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:39:09.075+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:39:09.075+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:39:09.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.289 seconds
+[2024-02-13T22:39:39.422+0000] {processor.py:161} INFO - Started process (PID=1205) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:39:39.422+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:39:39.423+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:39:39.423+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:39:39.658+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:39:39.677+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:39:39.676+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:39:39.686+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:39:39.686+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:39:39.705+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.285 seconds
+[2024-02-13T22:40:09.875+0000] {processor.py:161} INFO - Started process (PID=1242) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:09.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:40:09.877+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:09.877+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:10.128+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:10.153+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:10.153+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:40:10.168+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:10.168+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:40:10.191+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.318 seconds
+[2024-02-13T22:40:25.952+0000] {processor.py:161} INFO - Started process (PID=1255) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:25.953+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:40:25.954+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:25.954+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:26.329+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:26.357+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:26.356+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:40:26.370+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:26.370+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:40:26.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.450 seconds
+[2024-02-13T22:40:56.629+0000] {processor.py:161} INFO - Started process (PID=1292) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:56.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:40:56.631+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:56.631+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:57.076+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:40:57.103+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:57.102+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:40:57.117+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:40:57.117+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:40:57.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.514 seconds
+[2024-02-13T22:41:27.373+0000] {processor.py:161} INFO - Started process (PID=1332) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:41:27.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:41:27.376+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:41:27.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:41:27.752+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:41:27.780+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:41:27.780+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:41:27.795+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:41:27.794+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:41:27.823+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.452 seconds
+[2024-02-13T22:41:58.010+0000] {processor.py:161} INFO - Started process (PID=1370) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:41:58.011+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:41:58.011+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:41:58.011+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:41:58.385+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:41:58.411+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:41:58.411+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:41:58.427+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:41:58.426+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:41:58.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.456 seconds
+[2024-02-13T22:42:28.714+0000] {processor.py:161} INFO - Started process (PID=1407) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:42:28.715+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:42:28.716+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:42:28.716+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:42:29.116+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:42:29.144+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:42:29.144+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:42:29.162+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:42:29.162+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:42:29.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.475 seconds
+[2024-02-13T22:42:59.368+0000] {processor.py:161} INFO - Started process (PID=1445) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:42:59.369+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:42:59.370+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:42:59.369+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:42:59.731+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:42:59.761+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:42:59.760+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:42:59.774+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:42:59.774+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:42:59.799+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.435 seconds
+[2024-02-13T22:43:04.965+0000] {processor.py:161} INFO - Started process (PID=1476) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:04.965+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:43:04.966+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:04.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:05.270+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:05.297+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:05.297+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:43:05.312+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:05.312+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:43:05.335+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.374 seconds
+[2024-02-13T22:43:18.021+0000] {processor.py:161} INFO - Started process (PID=1482) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:18.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:43:18.023+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:18.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:18.267+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:18.267+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:43:18.268+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:18.289+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.270 seconds
+[2024-02-13T22:43:27.073+0000] {processor.py:161} INFO - Started process (PID=1495) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:27.074+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:43:27.074+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:27.074+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:27.320+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:27.319+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:43:27.320+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:27.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.270 seconds
+[2024-02-13T22:43:57.913+0000] {processor.py:161} INFO - Started process (PID=1533) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:57.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:43:57.918+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:57.918+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:58.163+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:43:58.163+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:43:58.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:43:58.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.274 seconds
+[2024-02-13T22:44:28.408+0000] {processor.py:161} INFO - Started process (PID=1571) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:44:28.409+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:44:28.410+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:44:28.410+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:44:28.796+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:44:28.795+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:44:28.796+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:44:28.821+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.418 seconds
+[2024-02-13T22:44:58.889+0000] {processor.py:161} INFO - Started process (PID=1609) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:44:58.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:44:58.890+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:44:58.890+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:44:59.110+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:44:59.109+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:44:59.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:44:59.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.244 seconds
+[2024-02-13T22:45:07.318+0000] {processor.py:161} INFO - Started process (PID=1640) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:07.319+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:45:07.320+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:07.320+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:07.581+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:07.580+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:45:07.581+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:07.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.284 seconds
+[2024-02-13T22:45:14.363+0000] {processor.py:161} INFO - Started process (PID=1646) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:14.364+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:45:14.365+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:14.365+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:14.724+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:14.723+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:45:14.724+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:14.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.392 seconds
+[2024-02-13T22:45:16.784+0000] {processor.py:161} INFO - Started process (PID=1652) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:16.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:45:16.786+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:16.785+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:17.021+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:17.021+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:45:17.022+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:17.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.261 seconds
+[2024-02-13T22:45:47.614+0000] {processor.py:161} INFO - Started process (PID=1689) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:47.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:45:47.616+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:47.616+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:47.850+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:45:47.849+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:45:47.850+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:45:47.868+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.257 seconds
+[2024-02-13T22:46:16.159+0000] {processor.py:161} INFO - Started process (PID=1726) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:16.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:46:16.160+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:16.160+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:16.391+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:16.390+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:46:16.391+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:16.413+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.257 seconds
+[2024-02-13T22:46:46.717+0000] {processor.py:161} INFO - Started process (PID=1763) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:46.718+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:46:46.719+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:46.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:47.027+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:47.027+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:46:47.028+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:47.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.335 seconds
+[2024-02-13T22:46:57.763+0000] {processor.py:161} INFO - Started process (PID=1776) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:57.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:46:57.764+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:57.764+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:57.767+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:57.766+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 89
+    df['distance'] = (df['distance'] * 0.000621371).astype(float)
+                                                                ^
+IndentationError: unindent does not match any outer indentation level
+[2024-02-13T22:46:57.768+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:57.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.027 seconds
+[2024-02-13T22:46:59.820+0000] {processor.py:161} INFO - Started process (PID=1781) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:46:59.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:46:59.822+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:46:59.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:00.084+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:00.083+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:47:00.084+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:00.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.286 seconds
+[2024-02-13T22:47:03.842+0000] {processor.py:161} INFO - Started process (PID=1787) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:03.843+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:47:03.844+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:03.844+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:04.206+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:04.205+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:47:04.206+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:04.234+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.395 seconds
+[2024-02-13T22:47:11.460+0000] {processor.py:161} INFO - Started process (PID=1818) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:11.463+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:47:11.465+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:11.465+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:11.846+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:11.845+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:47:11.847+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:11.871+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.446 seconds
+[2024-02-13T22:47:15.920+0000] {processor.py:161} INFO - Started process (PID=1824) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:15.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:47:15.921+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:15.921+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:16.162+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:16.161+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:47:16.163+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:16.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.265 seconds
+[2024-02-13T22:47:20.943+0000] {processor.py:161} INFO - Started process (PID=1830) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:20.943+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:47:20.944+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:20.944+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:21.166+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:21.165+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:47:21.166+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:21.186+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.246 seconds
+[2024-02-13T22:47:49.337+0000] {processor.py:161} INFO - Started process (PID=1867) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:49.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:47:49.338+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:49.338+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:49.559+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:47:49.558+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129, in <module>
+    df=clean_data(df)
+NameError: name 'df' is not defined
+[2024-02-13T22:47:49.559+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:47:49.582+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.249 seconds
+[2024-02-13T22:48:00.388+0000] {processor.py:161} INFO - Started process (PID=1880) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:00.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:00.390+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:00.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:00.615+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:00.614+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 132, in <module>
+    df = df.drop(labels=['pace', 'average_pace_mins','average_pace_secs'], axis=1)
+NameError: name 'df' is not defined
+[2024-02-13T22:48:00.615+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:00.641+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.255 seconds
+[2024-02-13T22:48:08.965+0000] {processor.py:161} INFO - Started process (PID=1911) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:08.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:08.967+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:08.966+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:09.258+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:09.257+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 134, in <module>
+    df.to_csv('Strava20240205.csv', index=False)
+NameError: name 'df' is not defined
+[2024-02-13T22:48:09.258+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:09.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.315 seconds
+[2024-02-13T22:48:12.054+0000] {processor.py:161} INFO - Started process (PID=1917) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:12.055+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:12.055+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:12.055+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:12.290+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:12.290+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 135, in <module>
+    df.to_csv('Strava20240205.csv', index=False)
+NameError: name 'df' is not defined
+[2024-02-13T22:48:12.291+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:12.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.259 seconds
+[2024-02-13T22:48:19.338+0000] {processor.py:161} INFO - Started process (PID=1923) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:19.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:19.340+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:19.340+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:19.747+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:19.977+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:19.976+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:48:19.985+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:19.985+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:48:20.017+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.681 seconds
+[2024-02-13T22:48:20.374+0000] {processor.py:161} INFO - Started process (PID=1929) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:20.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:20.375+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:20.375+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:20.647+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:20.658+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:20.657+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:48:20.668+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:20.667+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:48:20.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.317 seconds
+[2024-02-13T22:48:35.767+0000] {processor.py:161} INFO - Started process (PID=1947) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:35.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:35.769+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:35.768+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:35.771+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:35.771+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 128
+    ti.xcom_push(key='cleaned_data', value=cleaned_data)
+                                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2024-02-13T22:48:35.771+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:35.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.027 seconds
+[2024-02-13T22:48:40.107+0000] {processor.py:161} INFO - Started process (PID=1972) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:40.107+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:40.108+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:40.108+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:40.111+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:40.111+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 129
+    ti.xcom_push(key='cleaned_data', value=cleaned_data)
+                                                       ^
+IndentationError: unindent does not match any outer indentation level
+[2024-02-13T22:48:40.111+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:40.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.028 seconds
+[2024-02-13T22:48:43.124+0000] {processor.py:161} INFO - Started process (PID=1977) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:43.125+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:43.126+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:43.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:43.360+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:43.369+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:43.369+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:48:43.379+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:43.379+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:48:43.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.285 seconds
+[2024-02-13T22:48:46.185+0000] {processor.py:161} INFO - Started process (PID=1983) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:46.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:46.187+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:46.187+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:46.427+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:46.452+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:46.451+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:48:46.467+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:46.467+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:48:46.524+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.341 seconds
+[2024-02-13T22:48:47.453+0000] {processor.py:161} INFO - Started process (PID=1989) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:47.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:47.455+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:47.454+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:47.787+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:47.800+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:47.800+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:48:47.818+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:47.817+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:48:47.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.389 seconds
+[2024-02-13T22:48:59.644+0000] {processor.py:161} INFO - Started process (PID=2002) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:59.645+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:48:59.646+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:59.646+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:59.650+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:48:59.649+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 135
+    task_1 = PythonOperator(
+    ^
+SyntaxError: invalid syntax
+[2024-02-13T22:48:59.651+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:48:59.678+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.038 seconds
+[2024-02-13T22:49:03.661+0000] {processor.py:161} INFO - Started process (PID=2007) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:03.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:03.662+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:03.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:03.943+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:03.963+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:03.962+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:49:03.972+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:03.972+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:49:03.998+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.339 seconds
+[2024-02-13T22:49:10.314+0000] {processor.py:161} INFO - Started process (PID=2038) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:10.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:10.316+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:10.316+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:10.696+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:10.718+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:10.717+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:49:10.727+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:10.727+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:49:10.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.437 seconds
+[2024-02-13T22:49:11.323+0000] {processor.py:161} INFO - Started process (PID=2044) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:11.324+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:11.324+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:11.324+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:11.566+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:11.588+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:11.588+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:49:11.597+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:11.597+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:49:11.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.299 seconds
+[2024-02-13T22:49:20.376+0000] {processor.py:161} INFO - Started process (PID=2050) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:20.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:20.378+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:20.378+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:20.696+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:20.695+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 138, in <module>
+    task_1 >>task2
+NameError: name 'task2' is not defined
+[2024-02-13T22:49:20.697+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:20.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.363 seconds
+[2024-02-13T22:49:24.709+0000] {processor.py:161} INFO - Started process (PID=2062) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:24.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:24.711+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:24.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:25.038+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:25.038+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 138, in <module>
+    task_1 >> task2
+NameError: name 'task2' is not defined
+[2024-02-13T22:49:25.039+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:25.060+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.354 seconds
+[2024-02-13T22:49:28.820+0000] {processor.py:161} INFO - Started process (PID=2068) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:28.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:28.822+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:28.822+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:29.238+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:29.207+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 138, in <module>
+    task_1 = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_strava_data' has already been added to the DAG
+[2024-02-13T22:49:29.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:29.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.475 seconds
+[2024-02-13T22:49:31.111+0000] {processor.py:161} INFO - Started process (PID=2074) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:31.112+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:31.112+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:31.112+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:31.353+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:31.351+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 138, in <module>
+    task_2 = PythonOperator(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 184, in __init__
+    super().__init__(**kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 811, in __init__
+    task_group.add(self)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/task_group.py", line 231, in add
+    raise DuplicateTaskIdFound(f"{node_type} id '{key}' has already been added to the DAG")
+airflow.exceptions.DuplicateTaskIdFound: Task id 'get_strava_data' has already been added to the DAG
+[2024-02-13T22:49:31.353+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:31.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.265 seconds
+[2024-02-13T22:49:36.684+0000] {processor.py:161} INFO - Started process (PID=2103) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:36.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:36.686+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:36.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:36.923+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:36.922+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 145, in <module>
+    task_1 >> task2
+NameError: name 'task2' is not defined
+[2024-02-13T22:49:36.923+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:36.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.261 seconds
+[2024-02-13T22:49:39.733+0000] {processor.py:161} INFO - Started process (PID=2111) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:39.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:39.735+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:39.735+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:40.275+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:40.274+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 145, in <module>
+    task_1 >> task2
+NameError: name 'task2' is not defined
+[2024-02-13T22:49:40.275+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:40.311+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.583 seconds
+[2024-02-13T22:49:45.389+0000] {processor.py:161} INFO - Started process (PID=2117) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:45.389+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:45.390+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:45.390+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:45.643+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:45.642+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 145, in <module>
+    task_1 >> task2
+NameError: name 'task2' is not defined
+[2024-02-13T22:49:45.643+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:45.666+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.280 seconds
+[2024-02-13T22:49:49.410+0000] {processor.py:161} INFO - Started process (PID=2123) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:49.410+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:49.411+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:49.411+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:49.742+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:49.741+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 140, in <module>
+    python_callable=clean,
+NameError: name 'clean' is not defined
+[2024-02-13T22:49:49.742+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:49.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.363 seconds
+[2024-02-13T22:49:50.717+0000] {processor.py:161} INFO - Started process (PID=2129) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:50.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:50.718+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:50.718+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:51.076+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:51.075+0000] {dagbag.py:348} ERROR - Failed to import: /opt/airflow/dags/get_strava_data.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 344, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/get_strava_data.py", line 145, in <module>
+    task_1 >> task2
+NameError: name 'task2' is not defined
+[2024-02-13T22:49:51.076+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:51.111+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.397 seconds
+[2024-02-13T22:49:58.191+0000] {processor.py:161} INFO - Started process (PID=2141) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:58.192+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:49:58.193+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:58.193+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:58.422+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:49:58.633+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:58.633+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:49:58.642+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:49:58.642+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:49:58.670+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.482 seconds
+[2024-02-13T22:50:29.292+0000] {processor.py:161} INFO - Started process (PID=2184) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:50:29.293+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:50:29.295+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:50:29.295+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:50:30.076+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:50:30.106+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:50:30.105+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:50:30.121+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:50:30.120+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:50:30.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 1.015 seconds
+[2024-02-13T22:51:00.720+0000] {processor.py:161} INFO - Started process (PID=2221) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:51:00.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:51:00.722+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:51:00.722+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:51:01.070+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:51:01.100+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:51:01.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:51:01.114+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:51:01.114+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:51:01.160+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.444 seconds
+[2024-02-13T22:51:32.087+0000] {processor.py:161} INFO - Started process (PID=2258) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:51:32.088+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:51:32.088+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:51:32.088+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:51:32.344+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:51:32.375+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:51:32.375+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:51:32.388+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:51:32.387+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:51:32.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.322 seconds
+[2024-02-13T22:52:02.482+0000] {processor.py:161} INFO - Started process (PID=2295) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:52:02.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:52:02.483+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:52:02.483+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:52:02.727+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:52:02.746+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:52:02.746+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:52:02.756+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:52:02.756+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:52:02.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.296 seconds
+[2024-02-13T22:52:32.884+0000] {processor.py:161} INFO - Started process (PID=2333) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:52:32.885+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:52:32.886+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:52:32.886+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:52:33.143+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:52:33.163+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:52:33.163+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:52:33.283+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:52:33.282+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:52:33.300+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.418 seconds
+[2024-02-13T22:53:03.648+0000] {processor.py:161} INFO - Started process (PID=2370) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:53:03.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:53:03.649+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:53:03.649+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:53:03.874+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:53:03.894+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:53:03.894+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:53:03.903+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:53:03.903+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:53:03.922+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.277 seconds
+[2024-02-13T22:53:34.289+0000] {processor.py:161} INFO - Started process (PID=2407) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:53:34.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:53:34.290+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:53:34.290+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:53:34.509+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:53:34.532+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:53:34.531+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:53:34.546+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:53:34.545+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:53:34.574+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.288 seconds
+[2024-02-13T22:54:04.726+0000] {processor.py:161} INFO - Started process (PID=2444) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:54:04.727+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:54:04.727+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:54:04.727+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:54:04.946+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:54:04.966+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:54:04.966+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:54:04.975+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:54:04.975+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:54:04.994+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.271 seconds
+[2024-02-13T22:54:35.074+0000] {processor.py:161} INFO - Started process (PID=2482) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:54:35.075+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:54:35.075+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:54:35.075+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:54:35.312+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:54:35.331+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:54:35.331+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:54:35.452+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:54:35.451+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:54:35.471+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.400 seconds
+[2024-02-13T22:55:05.522+0000] {processor.py:161} INFO - Started process (PID=2519) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:55:05.523+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:55:05.523+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:55:05.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:55:05.743+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:55:05.774+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:55:05.773+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:55:05.797+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:55:05.797+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:55:05.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.298 seconds
+[2024-02-13T22:55:35.932+0000] {processor.py:161} INFO - Started process (PID=2559) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:55:35.932+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:55:35.933+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:55:35.933+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:55:36.242+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:55:36.295+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:55:36.294+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:55:36.310+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:55:36.310+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:55:36.343+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.414 seconds
+[2024-02-13T22:56:07.350+0000] {processor.py:161} INFO - Started process (PID=2596) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:56:07.351+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:56:07.352+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:56:07.351+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:56:07.742+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:56:07.766+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:56:07.766+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:56:07.781+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:56:07.781+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:56:07.915+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.567 seconds
+[2024-02-13T22:56:38.710+0000] {processor.py:161} INFO - Started process (PID=2634) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:56:38.710+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:56:38.711+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:56:38.711+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:56:38.932+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:56:38.953+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:56:38.952+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:56:39.099+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:56:39.099+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:56:39.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.415 seconds
+[2024-02-13T22:57:10.143+0000] {processor.py:161} INFO - Started process (PID=2671) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:57:10.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:57:10.144+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:57:10.144+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:57:10.405+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:57:10.426+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:57:10.425+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:57:10.435+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:57:10.435+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:57:10.454+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.314 seconds
+[2024-02-13T22:57:40.494+0000] {processor.py:161} INFO - Started process (PID=2708) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:57:40.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:57:40.495+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:57:40.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:57:40.727+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:57:40.747+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:57:40.746+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:57:40.756+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:57:40.756+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:57:40.776+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.285 seconds
+[2024-02-13T22:58:10.970+0000] {processor.py:161} INFO - Started process (PID=2745) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:58:10.971+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:58:10.972+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:58:10.972+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:58:11.213+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:58:11.233+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:58:11.233+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:58:11.242+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:58:11.242+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:58:11.368+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.400 seconds
+[2024-02-13T22:58:42.378+0000] {processor.py:161} INFO - Started process (PID=2782) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:58:42.379+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:58:42.380+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:58:42.380+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:58:42.600+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:58:42.620+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:58:42.619+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:58:42.736+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:58:42.736+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:58:42.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.379 seconds
+[2024-02-13T22:59:12.816+0000] {processor.py:161} INFO - Started process (PID=2820) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:59:12.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:59:12.817+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:59:12.817+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:59:13.049+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:59:13.078+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:59:13.078+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:59:13.091+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:59:13.091+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:59:13.109+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.296 seconds
+[2024-02-13T22:59:43.253+0000] {processor.py:161} INFO - Started process (PID=2857) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:59:43.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T22:59:43.254+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:59:43.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:59:43.472+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T22:59:43.492+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:59:43.491+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T22:59:43.501+0000] {logging_mixin.py:188} INFO - [2024-02-13T22:59:43.500+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T22:59:43.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.270 seconds
+[2024-02-13T23:00:13.730+0000] {processor.py:161} INFO - Started process (PID=2894) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:00:13.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:00:13.735+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:00:13.735+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:00:14.109+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:00:14.137+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:00:14.136+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:00:14.152+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:00:14.151+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:00:14.442+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.727 seconds
+[2024-02-13T23:00:45.128+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:00:45.129+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:00:45.129+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:00:45.129+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:00:45.398+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:00:45.419+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:00:45.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:00:45.587+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:00:45.586+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:00:45.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.484 seconds
+[2024-02-13T23:01:16.021+0000] {processor.py:161} INFO - Started process (PID=2968) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:01:16.022+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:01:16.023+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:01:16.023+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:01:16.293+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:01:16.313+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:01:16.312+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:01:16.322+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:01:16.321+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:01:16.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.322 seconds
+[2024-02-13T23:01:46.496+0000] {processor.py:161} INFO - Started process (PID=3005) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:01:46.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:01:46.498+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:01:46.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:01:46.816+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:01:46.840+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:01:46.839+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:01:46.849+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:01:46.849+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:01:46.867+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.375 seconds
+[2024-02-13T23:02:17.020+0000] {processor.py:161} INFO - Started process (PID=3043) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:02:17.021+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:02:17.022+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:02:17.022+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:02:17.287+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:02:17.306+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:02:17.305+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:02:17.317+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:02:17.317+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:02:17.447+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.430 seconds
+[2024-02-13T23:02:47.603+0000] {processor.py:161} INFO - Started process (PID=3080) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:02:47.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:02:47.608+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:02:47.608+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:02:47.913+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:02:47.945+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:02:47.943+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:02:48.084+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:02:48.084+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:02:48.103+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.504 seconds
+[2024-02-13T23:03:18.233+0000] {processor.py:161} INFO - Started process (PID=3117) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:03:18.234+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:03:18.235+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:03:18.234+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:03:18.563+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:03:18.584+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:03:18.584+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:03:18.594+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:03:18.594+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:03:18.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.389 seconds
+[2024-02-13T23:03:48.784+0000] {processor.py:161} INFO - Started process (PID=3155) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:03:48.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:03:48.786+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:03:48.786+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:03:49.051+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:03:49.070+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:03:49.070+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:03:49.079+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:03:49.079+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:03:49.099+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.318 seconds
+[2024-02-13T23:04:19.356+0000] {processor.py:161} INFO - Started process (PID=3193) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:04:19.357+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:04:19.358+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:04:19.357+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:04:19.630+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:04:19.649+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:04:19.649+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:04:19.658+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:04:19.658+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:04:19.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.439 seconds
+[2024-02-13T23:04:50.064+0000] {processor.py:161} INFO - Started process (PID=3231) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:04:50.065+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:04:50.066+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:04:50.066+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:04:50.336+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:04:50.479+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:04:50.358+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:04:50.488+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:04:50.488+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:04:50.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.446 seconds
+[2024-02-13T23:05:20.624+0000] {processor.py:161} INFO - Started process (PID=3268) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:05:20.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:05:20.625+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:05:20.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:05:20.973+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:05:20.993+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:05:20.992+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:05:21.002+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:05:21.002+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:05:21.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.400 seconds
+[2024-02-13T23:05:51.125+0000] {processor.py:161} INFO - Started process (PID=3305) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:05:51.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:05:51.127+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:05:51.126+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:05:51.399+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:05:51.419+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:05:51.418+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:05:51.430+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:05:51.430+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:05:51.448+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.327 seconds
+[2024-02-13T23:06:21.655+0000] {processor.py:161} INFO - Started process (PID=3342) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:06:21.656+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:06:21.657+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:06:21.656+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:06:21.996+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:06:22.017+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:06:22.017+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:06:22.028+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:06:22.027+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:06:22.179+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.528 seconds
+[2024-02-13T23:06:52.239+0000] {processor.py:161} INFO - Started process (PID=3385) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:06:52.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:06:52.241+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:06:52.240+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:06:52.470+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:06:52.603+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:06:52.493+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:06:52.612+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:06:52.612+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:06:52.634+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.397 seconds
+[2024-02-13T23:07:22.683+0000] {processor.py:161} INFO - Started process (PID=3421) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:07:22.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:07:22.686+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:07:22.685+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:07:22.922+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:07:23.064+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:07:23.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:07:23.073+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:07:23.073+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:07:23.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.412 seconds
+[2024-02-13T23:07:53.182+0000] {processor.py:161} INFO - Started process (PID=3460) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:07:53.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:07:53.183+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:07:53.183+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:07:53.414+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:07:53.434+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:07:53.433+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:07:53.443+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:07:53.443+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:07:53.461+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.282 seconds
+[2024-02-13T23:08:23.562+0000] {processor.py:161} INFO - Started process (PID=3492) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:08:23.564+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:08:23.565+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:08:23.564+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:08:23.825+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:08:23.844+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:08:23.844+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:08:23.854+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:08:23.854+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:08:23.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.425 seconds
+[2024-02-13T23:08:54.061+0000] {processor.py:161} INFO - Started process (PID=3529) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:08:54.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:08:54.072+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:08:54.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:08:54.705+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:08:54.917+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:08:54.739+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:08:54.931+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:08:54.931+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:08:54.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.908 seconds
+[2024-02-13T23:09:25.493+0000] {processor.py:161} INFO - Started process (PID=3572) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:09:25.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:09:25.494+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:09:25.494+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:09:25.914+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:09:26.100+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:09:26.100+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:09:26.109+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:09:26.109+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:09:26.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.637 seconds
+[2024-02-13T23:09:56.241+0000] {processor.py:161} INFO - Started process (PID=3609) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:09:56.242+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:09:56.243+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:09:56.243+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:09:56.596+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:09:56.624+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:09:56.624+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:09:56.636+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:09:56.636+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:09:56.659+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.421 seconds
+[2024-02-13T23:10:26.820+0000] {processor.py:161} INFO - Started process (PID=3647) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:10:26.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:10:26.822+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:10:26.821+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:10:27.185+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:10:27.211+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:10:27.210+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:10:27.226+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:10:27.225+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:10:27.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.569 seconds
+[2024-02-13T23:10:57.498+0000] {processor.py:161} INFO - Started process (PID=3685) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:10:57.499+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:10:57.500+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:10:57.500+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:10:57.964+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:10:58.148+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:10:57.997+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:10:58.157+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:10:58.157+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:10:58.176+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.681 seconds
+[2024-02-13T23:11:28.281+0000] {processor.py:161} INFO - Started process (PID=3722) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:11:28.282+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:11:28.283+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:11:28.282+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:11:28.695+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:11:28.932+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:11:28.931+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:11:28.945+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:11:28.944+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:11:28.966+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.689 seconds
+[2024-02-13T23:11:59.137+0000] {processor.py:161} INFO - Started process (PID=3766) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:11:59.138+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:11:59.139+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:11:59.139+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:11:59.724+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:11:59.758+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:11:59.757+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:11:59.770+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:11:59.770+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:11:59.796+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.664 seconds
+[2024-02-13T23:12:29.901+0000] {processor.py:161} INFO - Started process (PID=3804) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:12:29.902+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:12:29.903+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:12:29.903+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:12:30.472+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:12:30.498+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:12:30.498+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:12:30.511+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:12:30.510+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:12:30.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.631 seconds
+[2024-02-13T23:13:00.639+0000] {processor.py:161} INFO - Started process (PID=3842) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:13:00.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:13:00.640+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:13:00.640+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:13:01.056+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:13:01.360+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:13:01.125+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:13:01.373+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:13:01.373+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:13:01.396+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.761 seconds
+[2024-02-13T23:13:31.558+0000] {processor.py:161} INFO - Started process (PID=3879) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:13:31.559+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:13:31.560+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:13:31.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:13:32.035+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:13:32.207+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:13:32.206+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:13:32.216+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:13:32.216+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:13:32.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.678 seconds
+[2024-02-13T23:14:02.346+0000] {processor.py:161} INFO - Started process (PID=3916) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:14:02.347+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:14:02.348+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:14:02.347+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:14:02.987+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:14:03.011+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:14:03.011+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:14:03.023+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:14:03.023+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:14:03.041+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.698 seconds
+[2024-02-13T23:14:33.184+0000] {processor.py:161} INFO - Started process (PID=3954) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:14:33.188+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:14:33.189+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:14:33.189+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:14:33.744+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:14:33.761+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:14:33.761+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:14:33.770+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:14:33.769+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:14:33.788+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.616 seconds
+[2024-02-13T23:15:03.886+0000] {processor.py:161} INFO - Started process (PID=3991) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:15:03.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:15:03.888+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:15:03.887+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:15:04.247+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:15:04.457+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:15:04.457+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:15:04.468+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:15:04.468+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:15:04.496+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.614 seconds
+[2024-02-13T23:15:34.623+0000] {processor.py:161} INFO - Started process (PID=4029) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:15:34.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:15:34.625+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:15:34.624+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:15:35.193+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:15:35.219+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:15:35.219+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:15:35.232+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:15:35.232+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:15:35.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.639 seconds
+[2024-02-13T23:16:05.402+0000] {processor.py:161} INFO - Started process (PID=4067) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:16:05.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:16:05.403+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:16:05.403+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:16:05.924+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:16:05.942+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:16:05.942+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:16:05.951+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:16:05.950+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:16:05.969+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.570 seconds
+[2024-02-13T23:16:36.066+0000] {processor.py:161} INFO - Started process (PID=4104) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:16:36.067+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:16:36.068+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:16:36.068+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:16:36.645+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:16:36.673+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:16:36.673+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:16:36.687+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:16:36.687+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:16:36.709+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.646 seconds
+[2024-02-13T23:17:06.862+0000] {processor.py:161} INFO - Started process (PID=4142) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:17:06.863+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:17:06.864+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:17:06.864+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:17:07.259+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:17:07.434+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:17:07.434+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:17:07.443+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:17:07.443+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:17:07.460+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.601 seconds
+[2024-02-13T23:17:37.564+0000] {processor.py:161} INFO - Started process (PID=4179) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:17:37.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:17:37.565+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:17:37.565+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:17:38.075+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:17:38.095+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:17:38.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:17:38.104+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:17:38.104+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:17:38.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.563 seconds
+[2024-02-13T23:18:08.284+0000] {processor.py:161} INFO - Started process (PID=4217) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:18:08.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:18:08.299+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:18:08.298+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:18:09.250+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:18:09.284+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:18:09.283+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:18:09.296+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:18:09.296+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:18:09.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 1.043 seconds
+[2024-02-13T23:18:39.491+0000] {processor.py:161} INFO - Started process (PID=4254) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:18:39.496+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:18:39.497+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:18:39.497+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:18:40.431+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:18:40.475+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:18:40.474+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:18:40.491+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:18:40.491+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:18:40.523+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 1.036 seconds
+[2024-02-13T23:19:10.712+0000] {processor.py:161} INFO - Started process (PID=4292) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:19:10.713+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:19:10.714+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:19:10.714+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:19:11.235+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:19:11.253+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:19:11.253+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:19:11.261+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:19:11.261+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:19:11.280+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.571 seconds
+[2024-02-13T23:19:41.391+0000] {processor.py:161} INFO - Started process (PID=4330) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:19:41.392+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:19:41.393+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:19:41.393+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:19:42.079+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:19:42.108+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:19:42.107+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:19:42.116+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:19:42.116+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:19:42.140+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.752 seconds
+[2024-02-13T23:20:12.272+0000] {processor.py:161} INFO - Started process (PID=4367) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:20:12.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:20:12.273+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:20:12.273+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:20:12.768+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:20:12.786+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:20:12.786+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:20:12.794+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:20:12.794+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:20:12.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.544 seconds
+[2024-02-13T23:20:42.944+0000] {processor.py:161} INFO - Started process (PID=4404) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:20:42.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:20:42.946+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:20:42.946+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:20:43.558+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:20:43.581+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:20:43.581+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:20:43.594+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:20:43.594+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:20:43.612+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.671 seconds
+[2024-02-13T23:21:13.727+0000] {processor.py:161} INFO - Started process (PID=4442) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:21:13.728+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:21:13.729+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:21:13.728+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:21:14.234+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:21:14.269+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:21:14.269+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:21:14.278+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:21:14.278+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:21:14.296+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.572 seconds
+[2024-02-13T23:21:44.399+0000] {processor.py:161} INFO - Started process (PID=4479) to work on /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:21:44.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/get_strava_data.py for tasks to queue
+[2024-02-13T23:21:44.400+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:21:44.400+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:21:44.908+0000] {processor.py:840} INFO - DAG(s) 'Get_API_data' retrieved from /opt/airflow/dags/get_strava_data.py
+[2024-02-13T23:21:44.926+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:21:44.926+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2024-02-13T23:21:44.935+0000] {logging_mixin.py:188} INFO - [2024-02-13T23:21:44.934+0000] {dag.py:3823} INFO - Setting next_dagrun for Get_API_data to None, run_after=None
+[2024-02-13T23:21:44.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/get_strava_data.py took 0.559 seconds

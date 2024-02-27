@@ -1,0 +1,30 @@
+[2024-02-15T22:06:25.394+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Get_strava_data.concatenate_data manual__2024-02-15T22:04:18.693853+00:00 [queued]>
+[2024-02-15T22:06:25.404+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Get_strava_data.concatenate_data manual__2024-02-15T22:04:18.693853+00:00 [queued]>
+[2024-02-15T22:06:25.404+0000] {taskinstance.py:2170} INFO - Starting attempt 2 of 2
+[2024-02-15T22:06:25.428+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): concatenate_data> on 2024-02-15 22:04:18.693853+00:00
+[2024-02-15T22:06:25.440+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'Get_strava_data', 'concatenate_data', 'manual__2024-02-15T22:04:18.693853+00:00', '--job-id', '1489', '--raw', '--subdir', 'DAGS_FOLDER/get_strava_data.py', '--cfg-path', '/tmp/tmp35f2eef0']
+[2024-02-15T22:06:25.448+0000] {standard_task_runner.py:88} INFO - Job 1489: Subtask concatenate_data
+[2024-02-15T22:06:25.452+0000] {standard_task_runner.py:60} INFO - Started process 2452 to run task
+[2024-02-15T22:06:25.532+0000] {task_command.py:423} INFO - Running <TaskInstance: Get_strava_data.concatenate_data manual__2024-02-15T22:04:18.693853+00:00 [running]> on host 154424aa5621
+[2024-02-15T22:06:25.633+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Jackie' AIRFLOW_CTX_DAG_ID='Get_strava_data' AIRFLOW_CTX_TASK_ID='concatenate_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-15T22:04:18.693853+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-15T22:04:18.693853+00:00'
+[2024-02-15T22:06:25.851+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/get_strava_data.py", line 158, in concatenate_data
+    os.makedirs(target_directory, exist_ok=True)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 213, in makedirs
+    makedirs(head, exist_ok=exist_ok)
+  File "/usr/local/lib/python3.8/os.py", line 223, in makedirs
+    mkdir(name, mode)
+PermissionError: [Errno 13] Permission denied: '/workspaces'
+[2024-02-15T22:06:25.861+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=Get_strava_data, task_id=concatenate_data, execution_date=20240215T220418, start_date=20240215T220625, end_date=20240215T220625
+[2024-02-15T22:06:25.883+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 1489 for task concatenate_data ([Errno 13] Permission denied: '/workspaces'; 2452)
+[2024-02-15T22:06:25.914+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-02-15T22:06:25.929+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
