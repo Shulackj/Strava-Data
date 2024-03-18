@@ -16,9 +16,7 @@ import warnings
 # Suppress FutureWarnings
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
-
 #read in strava data
-#git
 df = pd.read_csv('/workspaces/Strava-Data/dags/Strava_update.csv')
 
 #print the len
@@ -31,13 +29,13 @@ df= df.drop_duplicates()
 #Aligning activities
 df['type'] = df['type'].replace({'VirtualRide': 'Ride','Workout':'WeightTraining'})
 
-#print(df['name'].unique())
-trail_df = df[df['name'].str.contains('trail', case=False, na=False)]
-trail_df = trail_df[['name','type','sport_type']]
-
 df['date'] = np.array(pd.to_datetime(df['start_date']))
 df['year'] = df['date'].dt.year
 df['month'] = df['date'].dt.month
+df['starting_week'] = df['date'] - pd.to_timedelta(df['date'].dt.dayofweek, unit='D')
+#print(df['name'].unique())
+trail_df = df[df['name'].str.contains('trail', case=False, na=False)]
+trail_df = trail_df[['name','type','sport_type']]
 
 #print(df['sport_type'].unique())
 #Streamlit app
@@ -52,39 +50,44 @@ def stacked_bar_chart(data_frame,x,y,labels,title,orientation):
     labels=labels,
     title=title, orientation=orientation)
     return chart
+#Function to get the last 12 weeks of data
+def get_last_3_months_data(date=None,df=df):
+    if date is None:
+        date = datetime.now()
+    else:
+        date=date
+
+    most_recent_monday = date- timedelta(days=(date.weekday() + 6) % 7)
+    # Calculate the start date for the last 12 weeks from the most recent Monday
+    start_date = most_recent_monday - pd.DateOffset(weeks=12)
+    # Generate a range of dates for the last 12 weeks
+    date_range_last_12_weeks = pd.date_range(start=start_date, end=most_recent_monday, freq='W')
+    # Filter the DataFrame for rows within the last 12 weeks
+    df = df[(df['starting_week'] >= start_date) & (df['starting_week'] <= date)]
+    return df
+
+def volume_calculator(df):
+    df = df.groupby('starting_week')['total_elapsed_time'].sum().reset_index()
+    df['total_elapsed_time'] = df['total_elapsed_time'].apply(lambda x: "%d:%02d" % (divmod(x, 60)))
+    df['starting_week'] = df['starting_week'].dt.strftime('%m-%d')
+    df = df.rename(columns={'starting_week': 'Date', 'total_elapsed_time': 'Total Time'})
+    return df
+
+def distance_calc(df):
+    grouped_df = df.groupby(['type', pd.Grouper(key='starting_week', freq='W-MON')])[['distance','total_elapsed_time']].sum().reset_index()
+    grouped_df = grouped_df.sort_values('starting_week')
+    return grouped_df
 
 
 if selected_page == 'Current':
     # Set the 'date' column as the index
-    df['date'] = np.array(pd.to_datetime(df['start_date']))
-    df['starting_week'] = df['date'] - pd.to_timedelta(df['date'].dt.dayofweek, unit='D')
-
-    df_time= df 
+    df_time = df
     #Get Rid of data without distance
-    df = df[(df['type'] != 'Elliptical') & (df['type'] != 'WeightTraining')]
+    df_distance = df[(df['type'] != 'Elliptical') & (df['type'] != 'WeightTraining')]
 
     #Get weekly distance and duration totals
-    weekly_df = df.groupby(['type', pd.Grouper(key='starting_week', freq='W-MON')])[['distance','total_elapsed_time']].sum().reset_index()
-    weekly_df = weekly_df.sort_values('starting_week')
-
-    #Print the DataFrame
-    #print(weekly_df)
-
-    #Get the last 12 weeks of data
-    # Calculate the current date
-    current_date = datetime.now()
-
-    most_recent_monday = current_date- timedelta(days=(current_date.weekday() + 6) % 7)
-
-    # Calculate the start date for the last 12 weeks from the most recent Monday
-    start_date = most_recent_monday - pd.DateOffset(weeks=12)
-
-    # Generate a range of dates for the last 12 weeks
-    date_range_last_12_weeks = pd.date_range(start=start_date, end=most_recent_monday, freq='W')
-
-    # Filter the DataFrame for rows within the last 12 weeks
-    ltm_df = weekly_df[(weekly_df['starting_week'] >= start_date) & (weekly_df['starting_week'] <= current_date)]
-    #print(ltm_df)
+    df_distance_calc = distance_calc(df_distance)
+    ltm_df = get_last_3_months_data(date=None,df=df_distance_calc)
 
     last_3_months = stacked_bar_chart(ltm_df,x='starting_week',y='distance',labels={'starting_week':'Date','distance':'Distance in Miles'},title='Weekly Distance Totals by Activity',orientation='v')
     last_3_months.update_xaxes(tickmode='array', tickvals=ltm_df['starting_week'], ticktext=ltm_df['starting_week'].dt.strftime('%m-%d'))
@@ -93,40 +96,36 @@ if selected_page == 'Current':
     weekly_dur = df_time.groupby(['type', pd.Grouper(key='starting_week', freq='W-MON')])[['total_elapsed_time']].sum().reset_index()
     weekly_dur = weekly_dur.sort_values('starting_week')
 
-    ltm_time = weekly_dur[(weekly_dur['starting_week'] >= start_date) & (weekly_dur['starting_week'] <= current_date)]
+    ltm_time = get_last_3_months_data(date=None,df=weekly_dur)
    
     ltm_time['updated_time'] = ltm_time['total_elapsed_time'].apply(lambda x: "%d:%02d" % (divmod(x, 60)))
 
-    
     last_three_dur = stacked_bar_chart(ltm_time,y='starting_week',x='total_elapsed_time',labels={'starting_week':'Date','total_elapsed_time':'Time in Mins.'},title='Weekly Duration Totals by Activity',orientation='h')
-    # custom_time_labels = ['0:00', '0:30', '1:00', '1:30', '2:00', '2:30', '3:00', '3:30','4:00','4:30','5:00','5:30','6:00','6:30','7:00','7:30','8:00','8:30','9:00','9:30','10:00']
-    # last_three_dur.update_xaxes(ticktext=custom_time_labels)
+
     last_three_dur.update_yaxes(tickmode='array', tickvals=ltm_time['starting_week'], ticktext=ltm_time['starting_week'].dt.strftime('%m-%d'))
     st.plotly_chart(last_three_dur)
 
     #total aerobic volume
-    vol_df = ltm_time[ltm_time['type']!='WeightTraining']
+    aerobic_vol = ltm_time[ltm_time['type']!='WeightTraining']
+
+    #total cross train
+    xtrain_vol = ltm_time[(ltm_time['type'] == 'Ride') | (ltm_time['type'] == 'Hike') | (ltm_time['type'] == 'Elliptical')]
+
+    #total run
+    run_vol = ltm_time[ltm_time['type']=='Run']
+
+    df1 = volume_calculator(aerobic_vol)
+    df2 = volume_calculator(xtrain_vol)
+    df3 = volume_calculator(run_vol)
+
+    merged_df = pd.merge(df1, df2, on='Date', how='inner')
+    merged_df = merged_df.rename(columns={'Total Time_x':'Total Aerobic Time','Total Time_y':'Total Cross Train Time'})
+    final_vol = pd.merge(merged_df, df3, on='Date', how='inner')
+    final_vol = final_vol.rename(columns={'Total Time':'Total Run Time'})
     
-    vol_totals = vol_df.groupby('starting_week')['total_elapsed_time'].sum().reset_index()
-    vol_totals['total_elapsed_time'] = vol_totals['total_elapsed_time'].apply(lambda x: "%d:%02d" % (divmod(x, 60)))
-    vol_totals['starting_week'] = vol_totals['starting_week'].dt.strftime('%m-%d')
-    vol_totals = vol_totals.rename({'starting_week':'Date','total_elapsed_time':'Total Time'})
-    #print(vol_totals.columns)
-
-
-    
-    fig = ff.create_table(vol_totals)
-    #trace1 = go.Bar(
-    #         name= 'Weekly Mileage Totals by Activity',
-    #         x=ltm_df['starting_week'],
-    #         y=ltm_df['distance'],
-    #         offsetgroup=0,
-    #         base=ltm_df['type'],
-    #         marker_color = '#051c2c'
-    #     )
-    # fig.add_traces([trace1])
-
-    #fig.show()
+    #Create table
+    fig = ff.create_table(final_vol)
+  
     st.plotly_chart(fig)
 
 
@@ -136,22 +135,55 @@ if selected_page == 'Races':
         current_time = datetime.now()
         time_difference = end_time - current_time
         return time_difference
-    # Main Streamlit app
-    st.title("Countdown App")
 
     # Display countdown
     end_time = datetime(2024, 5, 18, 00, 5, 00)
     countdown = get_countdown(end_time)
-    print('Count'+ type(countdown))
-    st.write(f"Time remaining: {countdown}")
+    days = countdown.days
+    hours = countdown.seconds // 3600  
+    minutes = (countdown.seconds % 3600) // 60 
+
+    st.title("Countdown to Next Race")
+    st.write(f'Days until next race: {days} days, {hours} hours, {minutes} minutes')
 
 
+    race_types = ['50k','100k','100 Miles']
 
+    # Create a dropdown for selecting race type
+    selected_race_type = st.selectbox('Analyze Past Races', race_types)
+    if selected_race_type == '50k':
+        hyner_df = df[df['name']=='Hyner 50k']
+        dates = hyner_df['date'].unique()
 
+        selected_year = st.selectbox('Select a Year', sorted(hyner_df['date'].dt.year.unique()))
+
+        filtered_df = hyner_df[hyner_df['date'].dt.year == selected_year]
+        
+        selected_date_index = None
+        for i, date in enumerate(dates):
+            if date.year == selected_year:
+                ind = i
+                break
+        
+        ltm_hyner = get_last_3_months_data(date=dates[ind],df=df)
+
+        hyner_distance = distance_calc(ltm_hyner)
+        
+        last_three_hyner = stacked_bar_chart(hyner_distance,x='starting_week',y='distance',labels={'starting_week':'Date','distance':'Distance'},title='Weekly Duration Totals by Activity',orientation='v')
+
+        last_three_hyner.update_xaxes(tickmode='array', tickvals=hyner_distance['starting_week'], ticktext=hyner_distance['starting_week'].dt.strftime('%m-%d'))
+        st.plotly_chart(last_three_hyner)
+
+        hyner_dur = volume_calculator(ltm_hyner)
+        print(hyner_dur)
+        # last_three_hyner_dur = stacked_bar_chart(hyner_distance,y='Date',x='total_elasped_time',labels={'Date':'Date','total_elapsed_time':'Total Time in Mins'},title='Weekly Duration Totals by Activity',orientation='h')
+
+        # last_three_hyner_dur.update_yaxes(tickmode='array', tickvals=hyner_dur['Date'], ticktext=hyner_dur['Date'].dt.strftime('%m-%d'))
+        # st.plotly_chart(last_three_hyner_dur)
 
 if selected_page == 'All Time':
 
-#calculate total distnaces per activity type per year
+#calculate total distnaes per activity type per year
     total_distance_per_year = df[df['type'] != 'Elliptical']
     total_distance_per_year = total_distance_per_year.groupby(['type', 'year'])['distance'].sum().reset_index()
     
