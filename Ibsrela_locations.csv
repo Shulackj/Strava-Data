@@ -1,41 +1,917 @@
-,company,company2,Address1,Address2,City,Zip,state
+,company,company2,Address1,Address2,City,State,Zip
 0,TDDC Baylor Medical Center,"Gastroenterology
-in Dallas, TX",3417 Gaston Ave,Ste 800,"Dallas,",75246, TX
+in Dallas, TX",3417 Gaston Ave,Ste 800,"Dallas,",TX,75246
 1,DHAT Dallas - Gaston Ave,"Gastroenterology
-in Dallas, TX",3417 Gaston Ave,Ste. 790,"Dallas,",75246, TX
+in Dallas, TX",3417 Gaston Ave,Ste. 790,"Dallas,",TX,75246
 2,TDDC Dallas Research (Baylor),"Gastroenterology
-in Dallas, TX",3417 Gaston Ave,Ste 800,"Dallas,",75246, TX
+in Dallas, TX",3417 Gaston Ave,Ste 800,"Dallas,",TX,75246
 3,"TDDC Baylor, Barnett Tower","Gastroenterology
-in Dallas, TX",3600 Gaston Ave,#809,"Dallas,",75246, TX
+in Dallas, TX",3600 Gaston Ave,#809,"Dallas,",TX,75246
 4,DHAT - W Colorado Blvd,"Gastroenterology
-in Dallas, TX",221 W Colorado Blvd PAV II,Ste. 630,"Dallas,",75208, TX
+in Dallas, TX",221 W Colorado Blvd PAV II,Ste. 630,"Dallas,",TX,75208
 5,TDDC Dallas - North Park,"Gastroenterology
-in Dallas, TX",9101 N Central Expwy,Ste 300,"Dallas,",75231, TX
+in Dallas, TX",9101 N Central Expwy,Ste 300,"Dallas,",TX,75231
 6,DHAT Dallas - Walnut Hill Ln,"Gastroenterology
-in Dallas, TX",8220 Walnut Hill Ln,Ste. 710,"Dallas,",75231, TX
+in Dallas, TX",8220 Walnut Hill Ln,Ste. 710,"Dallas,",TX,75231
 7,TDDC - Presbyterian Hospital,"Gastroenterology
-in Dallas, TX",8230 Walnut Hill Ln,"Professional Bldg 3, Ste 610","Dallas,",75231, TX
+in Dallas, TX",8230 Walnut Hill Ln,"Professional Bldg 3, Ste 610","Dallas,",TX,75231
 8,DHAT Forest Ln Pediatric,"Gastroenterology
-in Dallas, TX",7777 Forest Lane,Suite C522,"Dallas,",75230, TX
+in Dallas, TX",7777 Forest Lane,Suite C522,"Dallas,",TX,75230
 9,TDDC Dallas - Medical City,"Gastroenterology
-in Dallas, TX",7777 Forest Ln,Ste C828,"Dallas,",75230, TX
+in Dallas, TX",7777 Forest Ln,Ste C828,"Dallas,",TX,75230
 10,DHAT - Park Central Pediatric,"Gastroenterology
-in Dallas, TX",12200 Park Central Dr,Suite 403,"Dallas,",75251, TX
+in Dallas, TX",12200 Park Central Dr,Suite 403,"Dallas,",TX,75251
 11,DHAT - Park Central,"Gastroenterology
-in Dallas, TX",12200 Park Central Dr,Ste. 403,"Dallas,",75251, TX
+in Dallas, TX",12200 Park Central Dr,Ste. 403,"Dallas,",TX,75251
 12,"TDDC Irving/Las Colinas, TX","Gastroenterology
-in Irving, TX",701 Tuscan Dr,Ste 110,"Irving,",75039, TX
+in Irving, TX",701 Tuscan Dr,Ste 110,"Irving,",TX,75039
 13,TDDC Irving Medical City,"Gastroenterology
-in Irving, TX",6750 North MacArthur Boulevard,Ste. 207,"Irving,",75039, TX
+in Irving, TX",6750 North MacArthur Boulevard,Ste. 207,"Irving,",TX,75039
 14,DHAT Dallas - W Wheatland Rd,"Gastroenterology
-in Dallas, TX",3430 W Wheatland Rd,Ste. 416,"Dallas,",75237, TX
+in Dallas, TX",3430 W Wheatland Rd,Ste. 416,"Dallas,",TX,75237
 15,"TDDC Grand Prairie, TX","Gastroenterology
-in Grand Prairie, TX",2740 N Hwy 360,Ste 100,"Grand Prairie,",75050, TX
+in Grand Prairie, TX",2740 N Hwy 360,Ste 100,"Grand Prairie,",TX,75050
 16,DHAT Plano Pkwy Pediatric,"Gastroenterology
-in Plano, TX",7000 W. Plano Pkwy,Ste. 110,"Plano,",75093, TX
+in Plano, TX",7000 W. Plano Pkwy,Ste. 110,"Plano,",TX,75093
 17,"TDDC Sunnyvale, TX","Gastroenterology
-in Sunnyvale, TX",480 U.S. 80,#200,"Sunnyvale,",75182, TX
+in Sunnyvale, TX",480 U.S. 80,#200,"Sunnyvale,",TX,75182
 18,DHAT Garland - N PGB Hwy,"Gastroenterology
-in Garland, TX",7150 N President GB Hwy,Suite 201 & Suite 202,"Garland,",75044, TX
+in Garland, TX",7150 N President GB Hwy,Suite 201 & Suite 202,"Garland,",TX,75044
 19,DHAT Garland Research,"Gastroenterology
-in Garland, TX",7150 N President GB Hwy,Suite 201 & Suite 202,"Garland,",75044, TX
+in Garland, TX",7150 N President GB Hwy,Suite 201 & Suite 202,"Garland,",TX,75044
+20,"DHAT Richardson - PGB Hwy, TX","Gastroenterology
+
+in Richardson, TX",2821 E President GB Hwy,Ste 205,"Richardson,",TX,75082
+21,"DHAT Plano - Preston Rd, TX","Gastroenterology
+
+in Plano, TX",3242 Preston Rd,Ste. 200,"Plano,",TX,75093
+22,TDDC Communications Pkwy,"Gastroenterology
+
+in Plano, TX",3032 Communications Pkwy,,"Plano,",TX,75093
+23,"DHAT Plano - Midway Rd, TX","Gastroenterology
+
+in Plano, TX",3108 Midway Rd,Ste. 104,"Plano,",TX,75093
+24,"TDDC Cedar Hill, TX","Gastroenterology
+
+in Cedar Hill, TX",294 Uptown Blvd,Ste 100,"Cedar Hill,",TX,75104
+25,DHAT Communications Pediatrics,"Gastroenterology
+
+in Plano, TX",5800 Communications Parkway,,"Plano,",TX,75093
+26,TDDC Plano - West Spring Creek,"Gastroenterology
+
+in Plano, TX",5655 W Spring Creek Pkwy,Ste 110,"Plano,",TX,75024
+27,TDDC Plano Spring Creek,"Gastroenterology
+
+in Plano, TX",5425 W. Spring Creek Pkwy,STE 105,"Plano,",TX,75024
+28,DHAT Rowlett - Lakeview Pkwy,"Gastroenterology
+
+in Rowlett, TX",7501 Lakeview Pkwy,Ste. 260,"Rowlett,",TX,75088
+29,"TDDC Arlington - North, TX","Gastroenterology
+
+in Arlington, TX",1001 N Waldrop Dr,Ste 509,"Arlington,",TX,76012
+30,"DHAT Bedford - Central Dr, TX","Gastroenterology
+
+in Bedford, TX",1600 Central Dr,Ste. 155 & 310,"Bedford,",TX,76022
+31,DHAT Preston Rd - Pediatric,"Gastroenterology
+
+in Plano, TX",7211 Preston Rd,Ste. 3500,"Plano,",TX,75024
+32,DHAT - Grapevine Pediatrics,"Gastroenterology
+
+in Grapevine, TX",2020 West State Highway 114,Suite 300,"Grapevine,",TX,76051
+33,TDDC Southlake,"Gastroenterology
+
+in Southlake, TX",505 S Nolen Dr,,"Southlake,",TX,76092
+34,"COPE Southlake, TX","Gastroenterology
+
+in Southlake, TX",505 S Nolen Dr,Ste B,"Southlake,",TX,76092
+35,TDDC Southlake Research,"Gastroenterology
+
+in Southlake, TX",505 S Nolen Dr,,"Southlake,",TX,76092
+36,"TDDC Rockwall, TX","Gastroenterology
+
+in Rockwall, TX",1005 W Ralph Hall Pkwy,Ste 125,"Rockwall,",TX,75032
+37,"DHAT Rockwall - Horizon Rd, TX","Gastroenterology
+
+in Rockwall, TX",3144 Horizon Rd,Ste. 210,"Rockwall,",TX,75032
+38,DHAT Frisco - Coit Rd,"Gastroenterology
+
+in Frisco, TX",4401 Coit Rd,Ste. 201,"Frisco,",TX,75035
+39,"TDDC - Churchill, TX","Gastroenterology
+
+in Flower Mound, TX",3051 Churchill Dr,#120,"Flower Mound,",TX,75022
+40,TDDC Flower Mound Medical Arts,"Gastroenterology
+
+in Flower Mound, TX",4370 Medical Arts Dr,Ste 295,"Flower Mound,",TX,75028
+41,"TDDC Allen, TX","Gastroenterology
+
+in Allen, TX",1105 N Central Expy,#370,"Allen,",TX,75013
+42,DHAT Allen - Central Expwy,"Gastroenterology
+
+in Allen, TX",1105 Central Expwy N,Ste 2220-MOB2,"Allen,",TX,75013
+43,GIA Mansfield - N. Miller Rd,"Gastroenterology
+
+in Mansfield, TX",647 N. Miller Rd,,"Mansfield,",TX,76063
+44,GI Alliance - Mansfield Endo,"Gastroenterology
+
+in Mansfield, TX",647 Miller Road,Ste. 100,"Mansfield,",TX,76063
+45,"DHAT NRH - Blvd 26, TX","Gastroenterology
+
+in North Richland Hills, TX",7835 Boulevard 26,,"North Richland Hills,",TX,76180
+46,DHAT NRH - Booth Calloway Rd,"Gastroenterology
+
+in North Richland Hills, TX",4375 Booth Calloway Rd,Ste. 307,"North Richland Hills,",TX,76180
+47,DHAT Town and Country Blvd,"Gastroenterology
+
+in Frisco, TX",5850 Town and County Blvd,Suite 302,"Frisco,",TX,75034
+48,DHAT N Dallas Pkwy Pediatric,"Gastroenterology
+
+in Frisco, TX",9250 N. Dallas Parkway,Ste. 110,"Frisco,",TX,75033
+49,DHAT Allen - SH 121,"Gastroenterology
+
+in Allen, TX",981 State Highway 121,Suite 1140,"Allen,",TX,75013
+50,DHAT Frisco - Legacy Dr,"Gastroenterology
+
+in Frisco, TX",11330 Legacy Dr,Ste. 205,"Frisco,",TX,75033
+51,"DHAT Keller - N Rufe Snow, TX","Gastroenterology
+
+in Keller, TX",300 N. Rufe Snow Drive,,"Keller,",TX,76248
+52,DHAT McKinney Pediatrics,"Gastroenterology
+
+in McKinney, TX",7300 Eldorado Parkway,Ste 275,"McKinney,",TX,75070
+53,TDDC McKinney Medical Village,"Gastroenterology
+
+in McKinney, TX",7300 Eldorado Pkwy,Ste 275,"McKinney,",TX,75070
+54,TDDC Frisco - Dallas Pkwy,"Gastroenterology
+
+in Frisco, TX",13192 Dallas Pkwy,#610,"Frisco,",TX,75034
+55,TDDC Frisco Pediatric Gastro,"Gastroenterology
+
+in Frisco, TX",13192 Dallas Parkway,,"Frisco,",TX,75034
+56,DHAT Medical Center Dr,"Gastroenterology
+
+in McKinney, TX",4521 Medical Center Dr,Ste. 500,"McKinney,",TX,75069
+57,DHAT McKinney - Adriatic Pkwy,"Gastroenterology
+
+in McKinney, TX",280 Adriatic Pkwy,,"McKinney,",TX,75071
+58,DHAT - 7520 N. Beach St.,"Gastroenterology
+
+in Fort Worth, TX",7520 N. Beach Street,Suite 108,"Fort Worth,",TX,76137
+59,TDDC Fort Worth North Beach St,"Gastroenterology
+
+in Fort Worth, TX",9509 N. Beach St,Ste 101,"Fort Worth,",TX,76244
+60,DHAT - 9800 N. Beach St,"Gastroenterology
+
+in Fort Worth, TX",9800 North Beach Street,Ste. 508,"Fort Worth,",TX,76244
+61,DHAT University Dr. Pediatric,"Gastroenterology
+
+in Prosper, TX",4200 W. University Dr,Suite 320,"Prosper,",TX,75078
+62,DHAT McKinney West University,"Gastroenterology
+
+in McKinney, TX",5337 W. University Dr,Ste. 200-Bldg G,"McKinney,",TX,75071
+63,"DHAT Prosper - Preston Rd, TX","Gastroenterology
+
+in Prosper, TX",210 S. Preston Road,Ste. 10,"Prosper,",TX,75078
+64,TDDC BS & W Medical Center,"Gastroenterology
+
+in McKinney, TX",5236 W University Dr,"Professional Bldg 1, Ste 3300","McKinney,",TX,75071
+65,DHAT FTW - Founders Way,"Gastroenterology
+
+in Fort Worth, TX",10900 Founders Way,Suite 204,"Fort Worth,",TX,76244
+66,DHAT Denton - Colorado Blvd,"Gastroenterology
+
+in Denton, TX",3324 Colorado Blvd,Ste. 101,"Denton,",TX,76210
+67,TDDC Fort Worth - Downtown,"Gastroenterology
+
+in Fort Worth, TX",900 W Magnolia,Ste 100,"Fort Worth,",TX,76104
+68,TDDC Fort Worth Research,"Gastroenterology
+
+in Fort Worth, TX",1307 8th Avenue,Ste 207,"Fort Worth,",TX,76104
+69,DHAT Fort Worth - Ninth Ave,"Gastroenterology
+
+in Fort Worth, TX",909 9th Ave,Ste 205,"Fort Worth,",TX,76104
+70,DHAT Kaufman,"Gastroenterology
+
+in Kaufman, TX",2300 Commerce Way,,"Kaufman,",TX,75142
+71,TDDC Denton - Scripture St,"Gastroenterology
+
+in Denton, TX",2665 Scripture St,Suite 210,"Denton,",TX,76201
+72,TDDC Denton Infusion Center,"Gastroenterology
+
+in Denton, TX",2665 Scripture Street,Ste 210,"Denton,",TX,76201
+73,DHAT Melissa,"Gastroenterology
+
+in Melissa, TX",3591 McKinney Street,,"Melissa,",TX,75454
+74,TDDC Fort Worth - Southwest,"Gastroenterology
+
+in Fort Worth, TX",6317 Harris Pkwy,"Professional Bldg 2, Ste 300","Fort Worth,",TX,76132
+75,DHAT Azle - S East Pkwy,"Gastroenterology
+
+in Azle, TX",909 Southeast Parkway,Ste. 103,"Azle,",TX,76020
+76,"GIA Willow Park, TX","Gastroenterology
+
+in Willow Park, TX",130 Jimma Drive,Suite A,"Willow Park,",TX,76087
+77,GIA Willow Park Endoscopy,"Gastroenterology
+
+in Willow Park, TX",130 Jimma Drive,Suite B,"Willow Park,",TX,76087
+78,"GIA Sherman, TX","Gastroenterology
+
+in Sherman, TX",1615 North US Hwy 75,Ste. A,"Sherman,",TX,75090
+79,DHAT Sherman Pediatrics,"Gastroenterology
+
+in Sherman, TX",1615 N US Hwy 75,Suite A,"Sherman,",TX,75090
+80,GI Alliance - Sherman Endo,"Gastroenterology
+
+in Sherman, TX",1615 North US Highway 75,Ste. A,"Sherman,",TX,75090
+81,"TDDC Lampasas, TX","Gastroenterology
+
+in Lampasas, TX",207 West Ave E,,"Lampasas,",TX,76550
+82,"TDDC Georgetown, TX","Gastroenterology
+
+in Georgetown, TX",1900 Scenic Dr,Ste 2218,"Georgetown,",TX,78626
+83,AG Georgetown - Austin Gastro,"Gastroenterology
+
+in Georgetown, TX",3201 South Austin Avenue,Suite 350,"Georgetown,",TX,78626
+84,TDDC Burnet -Temporary,"Gastroenterology
+
+in Burnet, TX",200 John W Hoover Pkwy,Building 3,"Burnet,",TX,78611
+85,AG Leander,"Gastroenterology
+
+in Leander, TX",1361 Hero Way,Ste. 101,"Leander,",TX,78641
+86,AG Round Rock - Forest Creek,"Gastroenterology
+
+in Round Rock, TX",4112 Links Lane,Suite 202,"Round Rock,",TX,78664
+87,TDDC Round Rock,"Gastroenterology
+
+in Round Rock, TX",7215 Wyoming Springs Drive,Suite 1300,"Round Rock,",TX,78681
+88,AG Round Rock Wyoming Springs,"Gastroenterology
+
+in Round Rock, TX",7200 Wyoming Springs Drive,Suite 1300,"Round Rock,",TX,78681
+89,"AG Cedar Park, TX","Gastroenterology
+
+in Cedar Park, TX",1401 Medical Parkway,"Building B, Suite 324","Cedar Park,",TX,78613
+90,"TDDC Cedar Park, TX","Gastroenterology
+
+in Cedar Park, TX",1411 Medical Parkway,Suite 200,"Cedar Park,",TX,78613
+91,TDDC Cedar Park Research,"Gastroenterology
+
+in Cedar Park, TX","1411 Medical Parkway, Ste. 102",,"Cedar Park,",TX,78613
+92,"TDDC Pflugerville, TX","Gastroenterology
+
+in Pflugerville, TX",1601 E. Pflugerville Pkwy,"Bldg 1, Ste 1203","Pflugerville,",TX,78759
+93,"TDDC Austin, TX","Gastroenterology
+
+in Austin, TX",11645 Angus Rd,Ste 4A,"Austin,",TX,78759
+94,"AG Manor, TX","Gastroenterology
+
+in Manor, TX",14008 Shadow Glen Blvd,Suite 201,"Manor,",TX,78653
+95,TDDC - Four Points,"Gastroenterology
+
+in Austin, TX",7011 Ribelin Ranch Drive,Suite 200,"Austin,",TX,78750
+96,AG Shoal Creek Blvd,"Gastroenterology
+
+in Austin, TX",8015 Shoal Creek Blvd,Suite 118,"Austin,",TX,78757
+97,AG Endoscopy Center I (North),"Gastroenterology
+
+in Austin, TX",8015 Shoal Creek Blvd,Suite 300,"Austin,",TX,78757
+98,"AG Shoal Creek - Austin, TX","Gastroenterology
+
+in Austin, TX",7951 Shoal Creek Boulevard,Bldg #B,"Austin,",TX,78757
+99,"AG Marble Falls, TX","Gastroenterology
+
+in Marble Falls, TX",608 Gateway Central,Suite 200,"Marble Falls,",TX,78654
+100,"AG St. David’s - Austin, TX","Gastroenterology
+
+in Austin, TX",1015 E. 32nd Street,Suite 300,"Austin,",TX,78705
+101,"AG Westlake Hills, TX","Gastroenterology
+
+in West Lake Hills, TX",5656 Bee Caves Road,"Building J, Suite J-202","West Lake Hills,",TX,78746
+102,"AG Lakeway - Bee Cave, TX","Gastroenterology
+
+in Bee Cave, TX",3944 Ranch Rd 620 S,"Bldg. 6, Suite 202","Bee Cave,",TX,78738
+103,AG Endoscopy Center III,"Gastroenterology
+
+in Bee Cave, TX",3944 Ranch Road 620 South,"Bldg 8, Suite 103","Bee Cave,",TX,78738
+104,"AG James Casey - Austin, TX","Gastroenterology
+
+in Austin, TX",4310 James Casey Street,Suite 4A,"Austin,",TX,78745
+105,AG Endoscopy Center II (South),"Gastroenterology
+
+in Austin, TX",4310 James Casey Street,Suite 4B (2nd Floor),"Austin,",TX,78745
+106,AG SW Medical Village - Austin,"Gastroenterology
+
+in Austin, TX",5625 Eiger Road,Suite 235,"Austin,",TX,78735
+107,"AG Bastrop, TX","Gastroenterology
+
+in Bastrop, TX",3101 Hwy 71 East,Suite 207,"Bastrop,",TX,78602
+108,"TDDC Woodlands - Magnolia, TX","Gastroenterology
+
+in The Woodlands, TX",10020 Research Forest,Ste A,"The Woodlands,",TX,77354
+109,"AG Dripping Springs, TX","Gastroenterology
+
+in Dripping Springs, TX",170 Benney Lane,Suite 201,"Dripping Springs,",TX,78620
+110,"TDDC Woodlands, TX","Gastroenterology
+
+in Spring, TX",26103 Interstate 45,Ste 100,"Spring,",TX,77380
+111,"TDDC Kyle, TX","Gastroenterology
+
+in Kyle, TX",4100 Everett,Ste 210,"Kyle,",TX,78640
+112,"AG Kyle, TX - Austin Gastro","Gastroenterology
+
+in Kyle, TX",1180 Seton Parkway,Suite 410,"Kyle,",TX,78640
+113,TDDC Live Oak Health Partners,"Gastroenterology
+
+in Wimberley, TX",201 FM 3237,,"Wimberley,",TX,78676
+114,"TDDC Houston - Willowbrook, TX","Gastroenterology
+
+in Houston, TX",18220 State Hwy 249,Ste 290,"Houston,",TX,77070
+115,"TDDC - Cypress, TX","Gastroenterology
+
+in Cypress, TX",21212 Northwest Fwy,Ste 245,"Cypress,",TX,77429
+116,"TDDC Kingwood, TX","Gastroenterology
+
+in Kingwood, TX",310 Kingwood Executive Dr,Ste B,"Kingwood,",TX,77339
+117,"TDDC San Marcos, TX","Gastroenterology
+
+in San Marcos, TX",1305 Wonder World Dr,Ste 200,"San Marcos,",TX,78666
+118,TDDC San Marcos Research,"Gastroenterology
+
+in San Marcos, TX",1305 Wonder World Dr,Ste 200,"San Marcos,",TX,78666
+119,"TDDC Humble/Fall Creek, TX","Gastroenterology
+
+in Humble, TX",9240 N Sam Houston Pkwy E,,"Humble,",TX,77396
+120,TDDC Katy Grand Medical Clinic,"Gastroenterology
+
+in Katy, TX",2840 Commercial Center Blvd,#104,"Katy,",TX,77494
+121,DHA - Memorial Hermann Tower,"Gastroenterology
+
+in Houston, TX",929 Gessner Road,Suite 1360,"Houston,",TX,77024
+122,BCSS Houston - 11th St,"Gastroenterology
+
+in Houston, TX",720 W 11th Street,,"Houston,",TX,77008
+123,GCSA Spring Branch,"Gastroenterology
+
+in Spring Branch, TX",6102 FM 311,,"Spring Branch,",TX,78070
+124,"TDDC New Braunfels, TX","Gastroenterology
+
+in New Braunfels, TX",2028 Sundance Pkwy,,"New Braunfels,",TX,78130
+125,"TDDC Houston, TX","Gastroenterology
+
+in Houston, TX",4100 S Shepherd Dr,,"Houston,",TX,77098
+126,"TDDC Richmond, TX","Gastroenterology
+
+in Richmond, TX",1601 Main St,Ste 401,"Richmond,",TX,77469
+127,BCSS Houston - Lawndale St,"Gastroenterology
+
+in Houston, TX",7105 Lawndale Street,,"Houston,",TX,77023
+128,TDDC Sugar Land - HWY 6,"Gastroenterology
+
+in Sugar Land, TX",1111 Hwy 6,Ste 105,"Sugar Land,",TX,77478
+129,"AGA Tulsa, OK","Gastroenterology
+
+in Tulsa, OK",4200 E. Skelly Drive,Suite 700,"Tulsa,",OK,74135
+130,"TDDC - SW FW Phan, TX","Gastroenterology
+
+in Sugar Land, TX",16659 SW Freeway,Ste 175,"Sugar Land,",TX,77479
+131,"TDDC - SW FW, TX","Gastroenterology
+
+in Sugar Land, TX",16605 SW Freeway,Ste 435,"Sugar Land,",TX,77479
+132,GCPA Pearland - Kirby Dr,"Gastroenterology
+
+in Pearland, TX",15015 Kirby Dr,Ste. 200 A,"Pearland,",TX,77047
+133,BCSS Pearland - Kirby Dr,"Gastroenterology
+
+in Houston, TX",15015 Kirby Drive,,"Houston,",TX,77047
+134,GCSA Boerne - Menger Springs,"Gastroenterology
+
+in Boerne, TX",134 Menger Springs,Ste. 1100,"Boerne,",TX,78006
+135,GCPA Pasadena - Fairmont Pkwy,"Gastroenterology
+
+in Pasadena, TX",4211 Fairmont Parkway,,"Pasadena,",TX,77504
+136,"BAG Pearland, TX","Gastroenterology
+
+in Pearland, TX",10907 Memorial Hermann Dr,Ste 440,"Pearland,",TX,77584
+137,GCSA -  Hardy Oak,"Gastroenterology
+
+in San Antonio, TX",18707 Hardy Oak Boulevard,,"San Antonio,",TX,78258
+138,SAGA - Stone Oak,"Gastroenterology
+
+in San Antonio, TX",150 E Sonterra Blvd,Suite 100,"San Antonio,",TX,78258
+139,GCPA Houston - Ellington,"Gastroenterology
+
+in Houston, TX",444 FM 1959,Suite A,"Houston,",TX,77034
+140,BAG Houston - Astoria,"Gastroenterology
+
+in Houston, TX",11920 Astoria Blvd,Ste 410,"Houston,",TX,77089
+141,GCSA - Northeast,"Gastroenterology
+
+in Live Oak, TX",12850 Toepperwein Road,,"Live Oak,",TX,78233
+142,"SETGA Beaumont, TX","Gastroenterology
+
+in Beaumont, TX",950 N 14th St,Ste 100,"Beaumont,",TX,77702
+143,GCPA Webster - Blossom Street,"Gastroenterology
+
+in Webster, TX",250 Blossom Street,Suite 210,"Webster,",TX,77598
+144,GCSA - Connally Oaks Medical,"Gastroenterology
+
+in San Antonio, TX",2130 NE loop 410,Suite 250,"San Antonio,",TX,78217
+145,TDDC San Antonio - ALON,"Gastroenterology
+
+in San Antonio, TX",11503 NW Military Hwy,#207,"San Antonio,",TX,78231
+146,"BAG Webster, TX","Gastroenterology
+
+in Webster, TX",1015 Medical Center Blvd,Ste 1700,"Webster,",TX,77598
+147,BAG Southeast Houston Research,"Gastroenterology
+
+in Webster, TX",1015 Medical Center Blvd,Ste 1500,"Webster,",TX,77598
+148,GCPA Nassau Bay Space Park Dr,"Gastroenterology
+
+in Nassau Bay, TX",2060 Space Park Drive,Suite 306,"Nassau Bay,",TX,77058
+149,GCSA - Alamo Heights,"Gastroenterology
+
+in San Antonio, TX",306 W Sunset Rd,#107,"San Antonio,",TX,78209
+150,GCSA - Medical Center Hamilton,"Gastroenterology
+
+in San Antonio, TX",5223 Hamilton Wolfe,,"San Antonio,",TX,78229
+151,"GCSA Bandera, TX","Gastroenterology
+
+in Bandera, TX",1050 TX-16,,"Bandera,",TX,78003
+152,SAGA - Medical Center,"Gastroenterology
+
+in San Antonio, TX",2833 Babcock Rd,Ste 100,"San Antonio,",TX,78229
+153,GCPA League City - Gulf Fwy,"Gastroenterology
+
+in League City, TX",2555 S. Gulf Freeway,Ste. 500,"League City,",TX,77573
+154,SAGA San Antonio - Downtown,"Gastroenterology
+
+in San Antonio, TX",520 E Euclid Ave,,"San Antonio,",TX,78212
+155,TDDC Pearl Brewery/Riverwalk,"Gastroenterology
+
+in San Antonio, TX",621 Camden St,Ste 202,"San Antonio,",TX,78215
+156,"TDDC - Westover Hills, TX","Gastroenterology
+
+in San Antonio, TX",11212 State Hwy 151,Ste 115,"San Antonio,",TX,78251
+157,GCSA  - Westover Hills Hwy 151,"Gastroenterology
+
+in San Antonio, TX",11212 State Hwy 151,"Medical Plaza 1, Ste 390","San Antonio,",TX,78251
+158,"SAGA - Westover Hills, TX","Gastroenterology
+
+in San Antonio, TX",11212 State Hwy 151,Ste 115,"San Antonio,",TX,78251
+159,TDDC Mission Trail,"Gastroenterology
+
+in San Antonio, TX",3327 Research Plaza St,Ste 305 & 307,"San Antonio,",TX,78235
+160,GCSA Mission Trail,"Gastroenterology
+
+in San Antonio, TX",3327 Research Plaza,#302,"San Antonio,",TX,78235
+161,SAGA San Antonio - Southside,"Gastroenterology
+
+in San Antonio, TX",7333 Barlite Blvd,Ste 320,"San Antonio,",TX,78224
+162,"GCSA Castroville, TX","Gastroenterology
+
+in Castroville, TX",813 Paris St,,"Castroville,",TX,78009
+163,GI Alliance of AR Springdale,"Gastroenterology
+
+in Springdale, AR",3901 Parkway Circle,Suite 550,"Springdale,",AR,72762
+164,"TDDC Hondo, TX","Gastroenterology
+
+in Hondo, TX",3202 Avenue G,,"Hondo,",TX,78861
+165,"AGA Bartlesville, OK","Gastroenterology
+
+in Bartlesville, OK",4150 SE Adams Road,,"Bartlesville,",OK,74006
+166,"GAR Bryant, AR","Gastroenterology
+
+in Bryant, AR","2305 Springhill Road, Ste 6",,"Bryant,",AR,72019
+167,"AGA Vinita, OK","Gastroenterology
+
+in Vinita, OK",735 North Foreman Street,,"Vinita,",OK,74301
+168,"TDDC Jourdanton, TX","Gastroenterology
+
+in Jourdanton, TX",256 Medical Dr,,"Jourdanton,",TX,78026
+169,GAR Cantrell Rd,"Gastroenterology
+
+in Little Rock, AR",11700 Cantrell Road,,"Little Rock,",AR,72223
+170,"GAR Conway, AR","Gastroenterology
+
+in Conway, AR",455 Hogan Lane,,"Conway,",AR,72034
+171,"LDDA Lubbock, TX","Gastroenterology
+
+in Lubbock, TX",3610 24th St,,"Lubbock,",TX,79410
+172,LDDA Lubbock Research,"Gastroenterology
+
+in Lubbock, TX",3610 24th St,,"Lubbock,",TX,79410
+173,"TDDC Pearsall, TX","Gastroenterology
+
+in Pearsall, TX",105 E Hackberry,,"Pearsall,",TX,78061
+174,"AEC Amarillo, TX","Gastroenterology
+
+in Amarillo, TX",6833 Plum Creek Dr,,"Amarillo,",TX,79124
+175,"GAEC Vicksburg, MS","Gastroenterology
+
+in Vicksburg, MS",1815 Mission 66,,"Vicksburg,",MS,39180
+176,GA LLC Jefferson Hwy,"Gastroenterology
+
+in Baton Rouge, LA",9103 Jefferson Hwy,,"Baton Rouge,",LA,70809
+177,GA LLC Baton Rouge Research,"Gastroenterology
+
+in Baton Rouge, LA",9103 Jefferson Highway,,"Baton Rouge,",LA,70809
+178,"GAEC Madison, MS","Gastroenterology
+
+in Madison, MS",106 Highland Way,,"Madison,",MS,39110
+179,"GAEC Flowood, MS","Gastroenterology
+
+in Flowood, MS",2510 Lakeland Drive,,"Flowood,",MS,39232
+180,GAEC Flowood Research,"Gastroenterology
+
+in Flowood, MS",2510 Lakeland Drive,,"Flowood,",MS,39232
+181,"DHC Thibodaux, LA","Gastroenterology
+
+in Thibodaux, LA",764 North Acadia Rd,,"Thibodaux,",LA,70301
+182,"DHC Houma, LA","Gastroenterology
+
+in Houma, LA",4734 Hwy 311,,"Houma,",LA,70360
+183,GGAMC Covington Group,"Gastroenterology
+
+in Covington, LA",131-B Cherokee Rose Lane,,"Covington,",LA,70433
+184,"MGA Metairie, LA","Gastroenterology
+
+in Metairie, LA",4224 Houma Boulevard,Ste 400,"Metairie,",LA,70006
+185,MGA Metairie Research,"Gastroenterology
+
+in Metairie, LA",4224 Houma Boulevard,Suite 400,"Metairie,",LA,70006
+186,DHS Summit GI - Lenexa,"Gastroenterology
+
+in Lenexa, KS",23401 Prairie Star Parkway,,"Lenexa,",KS,66227
+187,MGA Uptown Office & Endoscopy,"Gastroenterology
+
+in New Orleans, LA",2820 Napoleon Avenue,Suite 720/Suite 700,"New Orleans,",LA,70115
+188,DHS Summit GI,"Gastroenterology
+
+in Lee's Summit, MO",110 NE Saint Luke's Blvd.,Suite 530,"Lee's Summit,",MO,64086
+189,"MGA Westbank Office, LA","Gastroenterology
+
+in Marrero, LA",1151 Barataria Boulevard,Ste 4400,"Marrero,",LA,70072
+190,"MGA Westbank Endoscopy, LA","Gastroenterology
+
+in Marrero, LA",1151 Barataria Boulevard,Ste 4200,"Marrero,",LA,70072
+191,"HGA Hattiesburg, MS","Gastroenterology
+
+in Hattiesburg, MS",100 Methodist Hospital Blvd,,"Hattiesburg,",MS,39402
+192,DHS Independence Clinic,"Gastroenterology
+
+in Independence, MO","3800 South Whitney Avenue,",Suite 200,"Independence,",MO,64055
+193,GGAMC Slidell Group,"Gastroenterology
+
+in Slidell, LA",58515 Pearl Acres Road,,"Slidell,",LA,70461
+194,DHS Briarcliff,"Gastroenterology
+
+in Kansas City, MO",1300 NW Briarcliff Parkway,Suite 150,"Kansas City,",MO,64116
+195,DHS North Oak Clinic,"Gastroenterology
+
+in Kansas City, MO",5330 North Oak Trafficway,Suite 102,"Kansas City,",MO,64118
+196,DHS Liberty Endocenter,"Gastroenterology
+
+in Kansas City, MO",9601 Northeast 79th St.,,"Kansas City,",MO,64158
+197,DHS Liberty Clinic,"Gastroenterology
+
+in Liberty, MO",2521 Glenn Hendren Drive,Suite 408,"Liberty,",MO,64068
+198,DHC - Cedar Lake,"Gastroenterology
+
+in Cedar Lake, MS",1720a Medical Park Drive,Suite 300,"Cedar Lake,",MS,39532
+199,DHS of St. Joseph,"Gastroenterology
+
+in St. Joseph, MO",5506 Corporate Drive,Suite 1780,"St. Joseph,",MO,64057
+200,DHC - Ocean Springs,"Gastroenterology
+
+in Ocean Springs, MS",3890 Bienville Boulevard,,"Ocean Springs,",MS,39564
+201,DHC - Pascagoula,"Gastroenterology
+
+in Pascagoula, MS",3616 Hospital Road,,"Pascagoula,",MS,39581
+202,"SIG Endoscopy - St. Louis, MO","Gastroenterology
+
+in St. Louis, MO",11525 Olde Cabin Road,Suite 101,"St. Louis,",MO,63141
+203,"SIG - St. Louis, MO","Gastroenterology
+
+in St. Louis, MO",11525 Olde Cabin Road,,"St. Louis,",MO,63141
+204,"CG Aurora, CO","Gastroenterology
+
+in Aurora, CO",13701 East Mississippi Ave,Suite 380,"Aurora,",CO,80012
+205,CG Denver - Endoscopy Center,"Gastroenterology
+
+in Denver, CO",8155 E 1st Ave,,"Denver,",CO,80230
+206,DDHS Denver - E 9th Ave,"Gastroenterology
+
+in Denver, CO",4500 E. 9th Avenue,Suite 720S,"Denver,",CO,80220
+207,CG Denver - N Ogden St,"Gastroenterology
+
+in Denver, CO",1960 N Ogden Street,Suite 220,"Denver,",CO,80218
+208,DDHS - Arvada,"Gastroenterology
+
+in Arvada, CO",9950 West 80th Avenue,Ste 24,"Arvada,",CO,80005
+209,"Normal, IL","Gastroenterology
+
+in Normal, IL",1302 Franklin Avenue,Suite 4800,"Normal,",IL,61761
+210,"IGH Mooresville, IN","Gastroenterology
+
+in Mooresville, IN",1215 Hadley Road,#203,"Mooresville,",IN,46158
+211,"IGH Indianapolis, IN","Gastroenterology
+
+in Indianapolis, IN",8051 S Emerson Ave,#200,"Indianapolis,",IN,46237
+212,"IGH Greensburg, IN","Gastroenterology
+
+in Greensburg, IN",720 N Lincoln St,,"Greensburg,",IN,47240
+213,"Orland Park, IL","Gastroenterology
+
+in Orland Park, IL",10758 W 167th St,,"Orland Park,",IL,60467
+214,"St. Charles, IL","Gastroenterology
+
+in St. Charles, IL",2455 Dean Street,Suite A,"St. Charles,",IL,60175
+215,"South Elgin, IL","Gastroenterology
+
+in South Elgin, IL",2000 McDonald Rd,Ste 260,"South Elgin,",IL,60177
+216,"Homewood, IL","Gastroenterology
+
+in Homewood, IL",17901 Governors Hwy,Suite 106,"Homewood,",IL,60430
+217,"Elgin, IL","Gastroenterology
+
+in Elgin, IL",745 Fletcher Dr,Ste 202,"Elgin,",IL,60123
+218,"Oak Lawn, IL","Gastroenterology
+
+in Oak Lawn, IL",9921 Southwest Hwy,,"Oak Lawn,",IL,60453
+219,"Hinsdale, IL","Gastroenterology
+
+in Hinsdale, IL",12 Salt Creek Ln,#425,"Hinsdale,",IL,60521
+220,"Lake in the Hills, IL","Gastroenterology
+
+in Lake in the Hills, IL",165 N Lakewood Rd,Suite D (Back of the building),"Lake in the Hills,",IL,60156
+221,Arlington Heights,"Gastroenterology
+
+in Arlington Heights, IL",1415 S Arlington Heights Rd,,"Arlington Heights,",IL,60005
+222,"Chicago - Lincoln Park, IL","Gastroenterology
+
+in Chicago, IL",331 West Surf Street,Ste 912,"Chicago,",IL,60657
+223,"Glenview, IL","Gastroenterology
+
+in Glenview, IL",2501 Compass Rd,Ste 130,"Glenview,",IL,60026
+224,Glenview Research,"Gastroenterology
+
+in Glenview, IL",2501 Compass Rd,Ste 130,"Glenview,",IL,60026
+225,"Evanston, IL","Gastroenterology
+
+in Evanston, IL",800 Austin Street,"East Tower, Suite 557","Evanston,",IL,60202
+226,"Highland Park, IL","Gastroenterology
+
+in Highland Park, IL",806 Central Ave,Ste 202,"Highland Park,",IL,60035
+227,"Libertyville, IL","Gastroenterology
+
+in Libertyville, IL",755 S Milwaukee Ave,Ste 195,"Libertyville,",IL,60048
+228,"Lindenhurst, IL","Gastroenterology
+
+in Lindenhurst, IL",3021 Falling Waters Blvd,Suite C,"Lindenhurst,",IL,60046
+229,"Gurnee, IL","Gastroenterology
+
+in Gurnee, IL",20 Tower Court,Ste C,"Gurnee,",IL,60031
+230,Gurnee Research,"Gastroenterology
+
+in Gurnee, IL",20 Tower Court,Ste F,"Gurnee,",IL,60031
+231,ADH - Tucson - Carondelet Dr,"Gastroenterology
+
+in Tucson, AZ",6630 E Carondelet Drive,,"Tucson,",AZ,85710
+232,"ADH - Tucson, AZ","Gastroenterology
+
+in Tucson, AZ",7490 N Oracle Rd.,Ste 210,"Tucson,",AZ,85704
+233,"ADH Queen Creek, AZ","Gastroenterology
+
+in Queen Creek, AZ",21321 E Ocotillo Rd,Ste 114,"Queen Creek,",AZ,85142
+234,ADH Mesa - East,"Gastroenterology
+
+in Mesa, AZ",6020 E Arbor Ave,Ste 101,"Mesa,",AZ,85206
+235,"ADH Mesa - Baseline, AZ","Gastroenterology
+
+in Mesa, AZ",3048 E Baseline Rd,Ste 105,"Mesa,",AZ,85204
+236,"ADH Gilbert, AZ","Gastroenterology
+
+in Gilbert, AZ",201 W Guadalupe Rd,Ste 209,"Gilbert,",AZ,85233
+237,ADH Mesa - Baseline 603,"Gastroenterology
+
+in Mesa, AZ",603 W. Baseline Rd,Suite 200,"Mesa,",AZ,85210
+238,"EVGH Chandler, AZ","Gastroenterology
+
+in Chandler, AZ",600 South Dobson Road,Bldg A1,"Chandler,",AZ,85244
+239,ADH North Scottsdale,"Gastroenterology
+
+in Scottsdale, AZ",10752 North 89th Place,Suite C134,"Scottsdale,",AZ,85260
+240,ADH Scottsdale – Scottsdale Rd,"Gastroenterology
+
+in Scottsdale, AZ",5111 N. Scottsdale Rd,Ste 151,"Scottsdale,",AZ,85250
+241,ADH Scottsdale Research,"Gastroenterology
+
+in Scottsdale, AZ",5111 N. Scottsdale Rd,Ste 151,"Scottsdale,",AZ,85250
+242,"ADH Phoenix - Ahwatukee, AZ","Gastroenterology
+
+in Phoenix, AZ",15215 S. 48th Street,Bldg. 6 Suite 161,"Phoenix,",AZ,85044
+243,"ADH Phoenix - North, AZ","Gastroenterology
+
+in Phoenix, AZ",3815 E Bell Rd,Ste 1250,"Phoenix,",AZ,85032
+244,"ADH Phoenix - Highland, AZ","Gastroenterology
+
+in Phoenix, AZ",2222 E. Highland Ave,Ste. 203,"Phoenix,",AZ,85016
+245,"ADH Phoenix - Coronado, AZ","Gastroenterology
+
+in Phoenix, AZ",349 E Coronado Rd,,"Phoenix,",AZ,85004
+246,ADH Phoenix - North Mountain,"Gastroenterology
+
+in Phoenix, AZ",9250 N 3rd St,Ste 4035,"Phoenix,",AZ,85020
+247,"ADH Phoenix - 19th Avenue, AZ","Gastroenterology
+
+in Phoenix, AZ",20033 N 19th Ave,Ste 106,"Phoenix,",AZ,85027
+248,"ADH Glendale, AZ","Gastroenterology
+
+in Glendale, AZ",5823 W Eugie Ave,Ste A,"Glendale,",AZ,85304
+249,"ADH Phoenix - Estrella, AZ","Gastroenterology
+
+in Phoenix, AZ",9305 W Thomas Rd,Ste 370,"Phoenix,",AZ,85037
+250,"ADH Sun City, AZ","Gastroenterology
+
+in Sun City, AZ",13640 N 99th Ave,Ste 600,"Sun City,",AZ,85351
+251,ADH Sun City Research,"Gastroenterology
+
+in Sun City, AZ",13640 N 99th Ave,Ste 600,"Sun City,",AZ,85351
+252,"ADH Peoria, AZ","Gastroenterology
+
+in Peoria, AZ",9836 W Yearling Rd,Ste 1300,"Peoria,",AZ,85383
+253,"ADH Surprise, AZ","Gastroenterology
+
+in Surprise, AZ",14869 W Bell Rd,Ste 100,"Surprise,",AZ,85374
+254,"UG Draper, UT","Gastroenterology
+
+in Draper, UT",13953 South Bangerter Parkway,,"Draper,",UT,84020
+255,UG Old Mill - Salt Lake City,"Gastroenterology
+
+in Salt Lake City, UT",6360 S 3000 E,Suite 310,"Salt Lake City,",UT,84121
+256,UG St. Mark's - SLC,"Gastroenterology
+
+in Salt Lake City, UT",1187 E 3900 S,,"Salt Lake City,",UT,84124
+257,"UG St. George, UT","Gastroenterology
+
+in St. George, UT",368 E Riverside Drive,Suite A,"St. George,",UT,84790
+258,"UG Riverton, UT","Gastroenterology
+
+in Riverton, UT",12391 S 4000 W,Ste 100,"Riverton,",UT,84065
+259,"UG Bountiful, UT","Gastroenterology
+
+in Bountiful, UT",620 E Medical Drive,Suite 205,"Bountiful,",UT,84010
+260,"GAF Wellington, FL","Gastroenterology
+
+in Wellington, FL",1397 Medical Park Blvd,Suite 300,"Wellington,",FL,33414
+261,GAF Wellington Research,"Gastroenterology
+
+in Wellington, FL",1397 Medical Park Boulevard,Suite 300,"Wellington,",FL,33414
+262,"GAF Atlantis, FL","Gastroenterology
+
+in Atlantis, FL",5401 S. Congress Avenue,Suite 211,"Atlantis,",FL,33462
+263,CTGI Greenwich,"Gastroenterology
+
+in Greenwich, CT",15 Valley Drive,3rd Floor,"Greenwich,",CT,6831
+264,CTGI Stamford,"Gastroenterology
+
+in Stamford, CT",778 Long Ridge Road,Ste 101,"Stamford,",CT,6902
+265,CTGI - Strawberry Hill,"Gastroenterology
+
+in Stamford, CT",32 Strawberry Hill Court,Suite 41042,"Stamford,",CT,6902
+266,CTGI Fairfield,"Gastroenterology
+
+in Fairfield, CT",425 Post Road,,"Fairfield,",CT,6824
+267,CTGI Bridgeport,"Gastroenterology
+
+in Bridgeport, CT",2660 Main Street,,"Bridgeport,",CT,6606
+268,CTGI Sharon,"Gastroenterology
+
+in Sharon, CT",29 Hospital Hill Road,Ste 1700,"Sharon,",CT,6069
+269,CTGI Trumbull,"Gastroenterology
+
+in Trumbull, CT",115 Technology Drive,Ste B201,"Trumbull,",CT,6611
+270,CTGI Torrington,"Gastroenterology
+
+in Torrington, CT",245 Alvord Park Road,Building B,"Torrington,",CT,6790
+271,CTGI Bristol,"Gastroenterology
+
+in Bristol, CT",25 Newell Road,Ste E-36,"Bristol,",CT,6010
+272,CTGI Southington,"Gastroenterology
+
+in Southington, CT",55 Meriden Avenue,Ste 2C,"Southington,",CT,6489
+273,CTGI Wallingford,"Gastroenterology
+
+in Wallingford, CT",850 North Main Street,Ext Building 2 B3,"Wallingford,",CT,6492
+274,CTGI Meriden,"Gastroenterology
+
+in Meriden, CT",455 Lewis Avenue,Ste 200,"Meriden,",CT,6451
+275,CTGI Avon,"Gastroenterology
+
+in Avon, CT",34 Dale Road,,"Avon,",CT,6001
+276,CTGI New Britain,"Gastroenterology
+
+in New Britain, CT",1 Liberty Square,,"New Britain,",CT,6052
+277,CTGI Farmington,"Gastroenterology
+
+in Farmington, CT",21 South Road,Ste 100,"Farmington,",CT,6032
+278,CTGI Bloomfield,"Gastroenterology
+
+in Bloomfield, CT",6 Northwestern Drive,Ste 302,"Bloomfield,",CT,6002
+279,CTGI Hartford,"Gastroenterology
+
+in Hartford, CT",85 Seymour Street,Ste 1000,"Hartford,",CT,6106
+280,CTGI Glastonbury,"Gastroenterology
+
+in Glastonbury, CT",300 Western Boulevard,Ste A,"Glastonbury,",CT,6033
+281,CTGI South Windsor,"Gastroenterology
+
+in South Windsor, CT",2400 Tamarack Avenue,Ste 101,"South Windsor,",CT,6074
+282,CTGI Manchester,"Gastroenterology
+
+in Manchester, CT",353 Main Street,,"Manchester,",CT,6040
+283,CTGI Enfield,"Gastroenterology
+
+in Enfield, CT",113 Elm Street,Ste 303,"Enfield,",CT,6082
+284,CTGI Vernon,"Gastroenterology
+
+in Vernon, CT",428 Hartford Turnpike,Unit 207,"Vernon,",CT,6066
+285,CTGI Waterford,"Gastroenterology
+
+in Waterford, CT",196 Waterford Parkway South,Ste 306,"Waterford,",CT,6385
+286,CTGI New London Montauk Ave,"Gastroenterology
+
+in New London, CT",268 Montauk Avenue,,"New London,",CT,6320
+287,CTGI New London Bank Street,"Gastroenterology
+
+in New London, CT",234A Bank Street,4th Floor,"New London,",CT,6320
+288,CTGI Willimantic,"Gastroenterology
+
+in Windham, CT",150 Mansfield Avenue,,"Windham,",CT,6226
+289,CTGI Norwich A,"Gastroenterology
+
+in Norwich, CT",105 Wawecus Street,Ste A,"Norwich,",CT,6360
+290,CTGI Norwich B,"Gastroenterology
+
+in Norwich, CT",105 Wawecus Street,Ste B,"Norwich,",CT,6360
+291,CTGI Putnam,"Gastroenterology
+
+in Putnam, CT",320 Pomfret Street,,"Putnam,",CT,6260
+292,"WG Sunrise, WA","Gastroenterology
+
+in Puyallup, WA","11216 Sunrise Blvd, Est",Suite 3-207,"Puyallup,",WA,98374
+293,WG Sunrise Endoscopy Center,"Gastroenterology
+
+in Puyallup, WA","11216 Sunrise Blvd, Est",Suite 3-201,"Puyallup,",WA,98374
+294,"WG Covington, WA","Gastroenterology
+
+in Kent, WA",17700 Se 272nd Street,Suite 420,"Kent,",WA,98042
+295,"WG Puyallup, WA","Gastroenterology
+
+in Puyallup, WA",1703 S Meridian,Ste 305,"Puyallup,",WA,98371
+296,WG Puyallup Endoscopy Center,"Gastroenterology
+
+in Puyallup, WA",1703 S Meridian,Ste 203,"Puyallup,",WA,98371
+297,"WG Issaquah, WA","Gastroenterology
+
+in Issaquah, WA",1301 4th Ave NW,Suite 303,"Issaquah,",WA,98027
+298,WG Eastside Endo – Issaquah,"Gastroenterology
+
+in Issaquah, WA","1301 4th Ave, NW",Suite 301,"Issaquah,",WA,98027
+299,"WG Federal Way, WA","Gastroenterology
+
+in Federal Way, WA",33915 1st Way S,Suite 200,"Federal Way,",WA,98003
+300,"WG Tacoma, WA","Gastroenterology
+
+in Tacoma, WA",2202 South Cedar Street,Suite 330,"Tacoma,",WA,98405
+301,WG Tacoma Research,"Gastroenterology
+
+in Tacoma, WA",2202 S Cedar St,Suite 330,"Tacoma,",WA,98405
+302,WG Waldron Endoscopy Center,"Gastroenterology
+
+in Tacoma, WA",3209 S 23rd St,Suite 200,"Tacoma,",WA,98405
+303,"WG Bellevue, WA","Gastroenterology
+
+in Bellevue, WA",1135 116th Ave NE,Suite 560,"Bellevue,",WA,98004
+304,"WG Bellevue, WA Research","Gastroenterology
+
+in Bellevue, WA",1135 116th Avenue NE,Suite 560,"Bellevue,",WA,98004
+305,"WG Gig Harbor, WA","Gastroenterology
+
+in Gig Harbor, WA",2727 Hollycroft Street,Suite 380,"Gig Harbor,",WA,98335
+306,WG Peninsula Endoscopy Center,"Gastroenterology
+
+in Gig Harbor, WA",2727 Hollycroft Street,Suite 480,"Gig Harbor,",WA,98335
+307,"WG Bainbridge Island, WA","Gastroenterology
+
+in Bainbridge Island, WA",1344 Wintergreen Lane NE,Suite 200,"Bainbridge Island,",WA,98110
+308,WG Port Orchard Clinic,"Gastroenterology
+
+in Port Orchard, WA",463 Tremont Street West,Ste 200,"Port Orchard,",WA,98366
+309,"DDEC - Silverdale, WA","Gastroenterology
+
+in Silverdale, WA",3261 NW Mount Vintage Way,Suite 221,"Silverdale,",WA,98383
+310,"WAGI - Silverdale, WA","Gastroenterology
+
+in Silverdale, WA",3261 NW Mount Vintage Way,Suite 221,"Silverdale,",WA,98383
+311,"WG Poulsbo, WA","Gastroenterology
+
+in Poulsbo, WA",22180 NW Olympic College NW,Ste 201,"Poulsbo,",WA,98370
